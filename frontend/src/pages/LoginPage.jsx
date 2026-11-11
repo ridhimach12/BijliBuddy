@@ -15,6 +15,7 @@ export default function LoginPage() {
   const [demoAccounts, setDemoAccounts] = useState([]);
 
   useEffect(() => {
+    if (!import.meta.env.DEV) return;
     authApi
       .demoAccounts()
       .then((res) => setDemoAccounts(res.accounts || []))
@@ -42,6 +43,7 @@ export default function LoginPage() {
   };
 
   const handleDemoClick = async (acc) => {
+    if (!import.meta.env.DEV || acc.role === 'admin') return;
     setError('');
     setLoading(true);
     try {
@@ -119,8 +121,8 @@ export default function LoginPage() {
         </div>
       </div>
 
-      {/* Demo Accounts Quick Switch */}
-      {demoAccounts.length > 0 && (
+      {/* Demo Accounts Quick Switch (development only) */}
+      {import.meta.env.DEV && demoAccounts.length > 0 && (
         <div className="bg-white rounded-2xl p-5 border border-[#E8E4D8] shadow-card space-y-3">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-navy/70">
             <Sparkles className="w-4 h-4 text-amber-500" />

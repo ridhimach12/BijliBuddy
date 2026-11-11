@@ -3,6 +3,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
+from app.core.config import get_settings
 from app.core.constants import CATEGORY_NAMES, LOCALITY_MAP
 from app.core.security import (
     create_access_token,
@@ -183,9 +184,15 @@ def get_me(current_user: User = Depends(get_current_user)):
 
 @router.get("/demo-accounts")
 def get_demo_accounts():
-    """Return clearly labeled synthetic demonstration login credentials for live hackathon demos."""
+    """Return non-admin synthetic demonstration login hints in non-production environments only."""
+    if get_settings().ENVIRONMENT.strip().lower() == "production":
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Demo accounts endpoint is disabled in production.",
+        )
+
     return {
-        "notice": "Explicitly labeled synthetic demonstration accounts (not real customer or electrician accounts).",
+        "notice": "Explicitly labeled non-admin synthetic demonstration accounts (development only).",
         "accounts": [
             {
                 "role": "customer",
@@ -197,12 +204,6 @@ def get_demo_accounts():
                 "role": "electrician",
                 "label": "Demo Electrician (Ramesh Kumar Verma — Saket, Verified)",
                 "email": "ramesh.verma@bijlibuddy.demo",
-                "password": "Demo@1234",
-            },
-            {
-                "role": "admin",
-                "label": "Demo Admin (Platform Operations)",
-                "email": "admin@bijlibuddy.demo",
                 "password": "Demo@1234",
             },
         ],

@@ -10,6 +10,7 @@ from typing import Dict, List
 
 from sqlalchemy.orm import Session
 
+from app.core.config import get_settings
 from app.core.constants import (
     CATEGORY_NAMES,
     DELHI_LOCALITIES,
@@ -116,18 +117,21 @@ def seed_database(db: Session) -> Dict[str, int]:
         categories_by_name[cfg["name"]] = cat
     db.flush()
 
-    # 2. Admin account
-    admin_user = User(
-        email="admin@bijlibuddy.demo",
-        phone="+919810000001",
-        full_name="BijliBuddy Operations Admin",
-        password_hash=DEMO_PASSWORD_HASH,
-        role="admin",
-        is_active=True,
-        is_demo=True,
-    )
-    db.add(admin_user)
-    db.flush()
+    # 2. Admin account (development/non-production only; production admins are provisioned explicitly)
+    is_production = get_settings().ENVIRONMENT.strip().lower() == "production"
+    admin_user = None
+    if not is_production:
+        admin_user = User(
+            email="admin@bijlibuddy.demo",
+            phone="+919810000001",
+            full_name="BijliBuddy Operations Admin",
+            password_hash=DEMO_PASSWORD_HASH,
+            role="admin",
+            is_active=True,
+            is_demo=True,
+        )
+        db.add(admin_user)
+        db.flush()
 
     # 3. Customers (8 demo households)
     customer_users: List[User] = []
@@ -196,7 +200,7 @@ def seed_database(db: Session) -> Dict[str, int]:
                 if ver_status == "verified"
                 else "Awaiting admin credential review" if ver_status == "pending" else None
             ),
-            verified_by_admin_id=admin_user.id if ver_status == "verified" else None,
+            verified_by_admin_id=admin_user.id if (admin_user is not None and ver_status == "verified") else None,
             verified_at=(now - timedelta(days=rng.randint(15, 90))) if ver_status == "verified" else None,
             base_visit_fee_inr=visit_fee,
             total_earnings_inr=0.0,
@@ -381,14 +385,15 @@ def seed_database(db: Session) -> Dict[str, int]:
             type="booking_update",
         )
     )
-    db.add(
-        Notification(
-            user_id=admin_user.id,
-            title="4 Electricians Pending Credential Verification",
-            message="Review pending technician credentials in the Verification Queue before marking verified.",
-            type="verification",
+    if admin_user is not None:
+        db.add(
+            Notification(
+                user_id=admin_user.id,
+                title="4 Electricians Pending Credential Verification",
+                message="Review pending technician credentials in the Verification Queue before marking verified.",
+                type="verification",
+            )
         )
-    )
 
     db.commit()
     return {
@@ -396,4 +401,5 @@ def seed_database(db: Session) -> Dict[str, int]:
         "customers": len(customer_users),
         "electricians": len(electrician_profiles),
         "bookings": booking_count,
+        "admin_created": 1 if admin_user is not None else 0,
     }

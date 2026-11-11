@@ -34,7 +34,15 @@ export const authApi = {
   register: (data) => apiClient.post('/auth/register', data).then((r) => r.data),
   login: (data) => apiClient.post('/auth/login', data).then((r) => r.data),
   me: () => apiClient.get('/auth/me').then((r) => r.data),
-  demoAccounts: () => apiClient.get('/auth/demo-accounts').then((r) => r.data),
+  demoAccounts: () => {
+    if (!import.meta.env.DEV) {
+      return Promise.resolve({ accounts: [] });
+    }
+    return apiClient.get('/auth/demo-accounts').then((r) => ({
+      ...r.data,
+      accounts: (r.data?.accounts || []).filter((acc) => acc.role !== 'admin'),
+    }));
+  },
 };
 
 export const publicApi = {

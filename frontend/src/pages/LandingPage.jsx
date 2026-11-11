@@ -13,7 +13,7 @@ import {
   Wrench,
   Zap,
 } from 'lucide-react';
-import { mlApi, publicApi } from '../api/client';
+import { authApi, mlApi, publicApi } from '../api/client';
 import { useAuth } from '../context/AuthContext';
 import { formatINR } from '../constants/delhi';
 import SafetyBanner from '../components/SafetyBanner';
@@ -26,6 +26,7 @@ export default function LandingPage() {
   const [sampleText, setSampleText] = useState('Main MCB tripping repeatedly when AC starts in Saket');
   const [triageLoading, setTriageLoading] = useState(false);
   const [triageResult, setTriageResult] = useState(null);
+  const [demoAccounts, setDemoAccounts] = useState([]);
   const [demoLoading, setDemoLoading] = useState('');
 
   useEffect(() => {
@@ -33,6 +34,13 @@ export default function LandingPage() {
       .categories()
       .then((res) => setCategories(res.categories || []))
       .catch(() => {});
+
+    if (import.meta.env.DEV) {
+      authApi
+        .demoAccounts()
+        .then((res) => setDemoAccounts(res.accounts || []))
+        .catch(() => {});
+    }
   }, []);
 
   const handleLiveTriage = async (e) => {
@@ -54,11 +62,12 @@ export default function LandingPage() {
     }
   };
 
-  const handleQuickDemoLogin = async (email, targetPath) => {
-    setDemoLoading(email);
+  const handleQuickDemoLogin = async (acc) => {
+    if (!import.meta.env.DEV || acc.role === 'admin') return;
+    setDemoLoading(acc.email);
     try {
-      await login(email, 'Demo@1234');
-      navigate(targetPath);
+      await login(acc.email, acc.password);
+      navigate(acc.role === 'electrician' ? '/electrician/dashboard' : '/customer/dashboard');
     } finally {
       setDemoLoading('');
     }
@@ -112,35 +121,26 @@ export default function LandingPage() {
               </Link>
             </div>
 
-            {/* Hackathon Demo Role Quick Switcher */}
-            <div className="pt-4 border-t border-white/10 space-y-2.5">
-              <div className="text-xs font-semibold uppercase tracking-wider text-ivory/65">
-                Instant Demo Login (Synthetic Demonstration Accounts)
+            {/* Hackathon Demo Role Quick Switcher (development only, non-admin) */}
+            {import.meta.env.DEV && demoAccounts.length > 0 && (
+              <div className="pt-4 border-t border-white/10 space-y-2.5">
+                <div className="text-xs font-semibold uppercase tracking-wider text-ivory/65">
+                  Instant Demo Login (Development Only)
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {demoAccounts.map((acc) => (
+                    <button
+                      key={acc.email}
+                      onClick={() => handleQuickDemoLogin(acc)}
+                      disabled={!!demoLoading}
+                      className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold border border-white/15 transition"
+                    >
+                      {demoLoading === acc.email ? 'Signing in...' : acc.label}
+                    </button>
+                  ))}
+                </div>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => handleQuickDemoLogin('ananya.sharma@bijlibuddy.demo', '/customer/dashboard')}
-                  disabled={!!demoLoading}
-                  className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold border border-white/15 transition"
-                >
-                  {demoLoading === 'ananya.sharma@bijlibuddy.demo' ? 'Signing in...' : 'Demo Customer (Saket)'}
-                </button>
-                <button
-                  onClick={() => handleQuickDemoLogin('ramesh.verma@bijlibuddy.demo', '/electrician/dashboard')}
-                  disabled={!!demoLoading}
-                  className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold border border-white/15 transition"
-                >
-                  {demoLoading === 'ramesh.verma@bijlibuddy.demo' ? 'Signing in...' : 'Demo Electrician (Ramesh)'}
-                </button>
-                <button
-                  onClick={() => handleQuickDemoLogin('admin@bijlibuddy.demo', '/admin/dashboard')}
-                  disabled={!!demoLoading}
-                  className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold border border-white/15 transition"
-                >
-                  {demoLoading === 'admin@bijlibuddy.demo' ? 'Signing in...' : 'Demo Admin Console'}
-                </button>
-              </div>
-            </div>
+            )}
           </div>
 
           {/* Live AI Triage Sandbox Widget */}
