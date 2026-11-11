@@ -37,6 +37,8 @@ class Settings(BaseSettings):
         """Ensure PostgreSQL URLs use psycopg3 SQLAlchemy dialect."""
         if not value:
             return value
+        if isinstance(value, str):
+            value = value.strip()
         if value.startswith("postgres://"):
             return value.replace("postgres://", "postgresql+psycopg://", 1)
         if value.startswith("postgresql://") and "+psycopg" not in value:
@@ -49,11 +51,21 @@ class Settings(BaseSettings):
         return [origin.strip() for origin in self.CORS_ORIGINS.split(",") if origin.strip()]
 
     def validate_production_secrets(self) -> None:
-        """Fail fast if production runs with the default development secret."""
-        if self.ENVIRONMENT.lower() == "production" and "dev-only" in self.JWT_SECRET_KEY:
-            raise RuntimeError(
-                "JWT_SECRET_KEY must be explicitly set to a strong secret in production."
-            )
+        """Fail fast if production runs with insecure secrets or SQLite/missing database."""
+        if self.ENVIRONMENT.strip().lower() == "production":
+            if "dev-only" in self.JWT_SECRET_KEY:
+                raise RuntimeError(
+                    "JWT_SECRET_KEY must be explicitly set to a strong secret in production."
+                )
+            db_url = (self.DATABASE_URL or "").strip()
+            if not db_url:
+                raise RuntimeError(
+                    "DATABASE_URL must be set and non-empty in production; production requires PostgreSQL."
+                )
+            if db_url.lower().startswith("sqlite"):
+                raise RuntimeError(
+                    "SQLite cannot be used in production; production requires PostgreSQL via DATABASE_URL."
+                )
 
 
 @lru_cache
