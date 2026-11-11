@@ -1,0 +1,25 @@
+{
+  "model_type": "RandomForestRegressor (OneHotEncoder + 140 trees)",
+  "dataset_type": "synthetic_starter",
+  "dataset_notice": "Synthetic starter dataset generated for BijliBuddy MVP demonstration and evaluation. Not real customer production data.",
+  "total_samples": 640,
+  "train_samples": 512,
+  "test_samples": 128,
+  "test_mae_inr": 76.07,
+  "test_rmse_inr": 105.96,
+  "test_r2_score": 0.8349,
+  "features": [
+    "service_category",
+    "repair_complexity",
+    "location_zone",
+    "urgency",
+    "time_of_service",
+    "estimated_duration"
+  ],
+  "limitations": [
+    "Trained on an explicitly synthetic starter dataset calibrated to typical Delhi household service rates.",
+    "Excludes physical hardware/spare part costs (e.g., new copper wiring coils, MCB units, ceiling fans, or inverter batteries).",
+    "Actual cost may vary depending on concealed wiring accessibility, building height, or unexpected circuit faults found on-site.",
+    "Always distinct from the electrician's final on-site quotation."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "model_type": "TF-IDF + LogisticRegression",
+  "dataset_type": "synthetic_starter",
+  "dataset_notice": "Synthetic starter dataset generated for BijliBuddy MVP demonstration and evaluation. Not real customer production data.",
+  "total_samples": 432,
+  "train_samples": 336,
+  "test_samples": 96,
+  "split_strategy": "Template-grouped holdout (4 unseen base templates per category)",
+  "test_accuracy": 0.7917,
+  "test_macro_f1": 0.784,
+  "classes": [
+    "Electrical appliance connection",
+    "Fan installation/repair",
+    "General electrical maintenance",
+    "Inverter",
+    "Lighting",
+    "MCB/circuit breaker",
+    "Switchboard",
+    "Wiring"
+  ],
+  "per_class_metrics": {
+    "Electrical appliance connection": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1_score": 0.8889,
+      "support": 12
+    },
+    "Fan installation/repair": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1_score": 0.8889,
+      "support": 12
+    },
+    "General electrical maintenance": {
+      "precision": 0.6154,
+      "recall": 0.6667,
+      "f1_score": 0.64,
+      "support": 12
+    },
+    "Inverter": {
+      "precision": 0.8571,
+      "recall": 0.5,
+      "f1_score": 0.6316,
+      "support": 12
+    },
+    "Lighting": {
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "f1_score": 0.8333,
+      "support": 12
+    },
+    "MCB/circuit breaker": {
+      "precision": 0.8571,
+      "recall": 1.0,
+      "f1_score": 0.9231,
+      "support": 12
+    },
+    "Switchboard": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1_score": 0.8571,
+      "support": 12
+    },
+    "Wiring": {
+      "precision": 0.6364,
+      "recall": 0.5833,
+      "f1_score": 0.6087,
+      "support": 12
+    }
+  }
+}

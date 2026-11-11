@@ -1,0 +1,641 @@
+service_category,repair_complexity,location_zone,urgency,time_of_service,estimated_duration,price_inr,dataset_source
+Wiring,medium,East Delhi,urgent,evening,61,870.0,synthetic_starter
+Inverter,medium,East Delhi,normal,afternoon,95,910.0,synthetic_starter
+Electrical appliance connection,high,North Delhi,normal,morning,114,890.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,urgent,afternoon,74,760.0,synthetic_starter
+Inverter,low,East Delhi,normal,morning,64,650.0,synthetic_starter
+General electrical maintenance,high,East Delhi,normal,afternoon,117,920.0,synthetic_starter
+Lighting,medium,South Delhi,normal,evening,68,590.0,synthetic_starter
+Electrical appliance connection,high,East Delhi,normal,morning,120,950.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,urgent,evening,20,610.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,morning,49,700.0,synthetic_starter
+Electrical appliance connection,medium,North Delhi,urgent,afternoon,68,800.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,normal,afternoon,44,660.0,synthetic_starter
+Electrical appliance connection,low,South Delhi,normal,evening,29,530.0,synthetic_starter
+General electrical maintenance,medium,North Delhi,urgent,morning,55,660.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,normal,afternoon,65,620.0,synthetic_starter
+Lighting,medium,West Delhi,normal,evening,39,380.0,synthetic_starter
+Fan installation/repair,high,South Delhi,emergency,evening,105,1350.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,morning,48,480.0,synthetic_starter
+Switchboard,low,West Delhi,normal,afternoon,27,250.0,synthetic_starter
+Wiring,medium,East Delhi,normal,evening,104,900.0,synthetic_starter
+Inverter,medium,South Delhi,normal,afternoon,95,1020.0,synthetic_starter
+Inverter,medium,South Delhi,normal,night,80,1100.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,emergency,afternoon,38,830.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,emergency,afternoon,34,810.0,synthetic_starter
+General electrical maintenance,medium,Central Delhi,normal,morning,72,660.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,normal,evening,59,890.0,synthetic_starter
+General electrical maintenance,low,East Delhi,emergency,morning,23,630.0,synthetic_starter
+MCB/circuit breaker,high,West Delhi,urgent,morning,121,1240.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,emergency,morning,29,710.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,urgent,night,108,1250.0,synthetic_starter
+Lighting,medium,Central Delhi,urgent,afternoon,65,700.0,synthetic_starter
+Lighting,high,Central Delhi,normal,morning,130,800.0,synthetic_starter
+Inverter,medium,Central Delhi,urgent,morning,74,1100.0,synthetic_starter
+Fan installation/repair,medium,Dwarka/NCR,normal,morning,76,610.0,synthetic_starter
+Wiring,low,East Delhi,normal,evening,45,560.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,urgent,morning,54,700.0,synthetic_starter
+Switchboard,medium,West Delhi,emergency,morning,51,770.0,synthetic_starter
+MCB/circuit breaker,medium,North Delhi,normal,morning,62,780.0,synthetic_starter
+Switchboard,high,North Delhi,urgent,afternoon,102,880.0,synthetic_starter
+Inverter,high,South Delhi,urgent,morning,133,1520.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,afternoon,73,610.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,morning,46,630.0,synthetic_starter
+General electrical maintenance,low,South Delhi,normal,morning,55,450.0,synthetic_starter
+General electrical maintenance,high,South Delhi,normal,morning,108,900.0,synthetic_starter
+MCB/circuit breaker,low,South Delhi,normal,morning,40,590.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,normal,evening,26,480.0,synthetic_starter
+Lighting,low,Central Delhi,normal,afternoon,39,300.0,synthetic_starter
+Wiring,medium,West Delhi,normal,evening,88,930.0,synthetic_starter
+Inverter,high,South Delhi,emergency,night,129,1950.0,synthetic_starter
+Inverter,medium,North Delhi,normal,afternoon,86,930.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,urgent,morning,55,660.0,synthetic_starter
+Switchboard,low,West Delhi,normal,afternoon,31,320.0,synthetic_starter
+Switchboard,low,East Delhi,emergency,night,55,950.0,synthetic_starter
+Lighting,high,North Delhi,urgent,evening,106,880.0,synthetic_starter
+Wiring,medium,Central Delhi,normal,evening,82,1010.0,synthetic_starter
+Inverter,medium,South Delhi,normal,night,84,1120.0,synthetic_starter
+Switchboard,medium,East Delhi,urgent,evening,47,640.0,synthetic_starter
+Inverter,low,North Delhi,urgent,morning,73,830.0,synthetic_starter
+Lighting,medium,West Delhi,urgent,evening,79,600.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,normal,morning,39,390.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,night,62,760.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,normal,morning,46,410.0,synthetic_starter
+Inverter,medium,West Delhi,normal,night,87,1130.0,synthetic_starter
+Switchboard,high,West Delhi,urgent,night,116,1230.0,synthetic_starter
+General electrical maintenance,low,North Delhi,normal,evening,36,510.0,synthetic_starter
+Inverter,low,East Delhi,normal,afternoon,65,650.0,synthetic_starter
+Inverter,low,East Delhi,emergency,evening,54,1000.0,synthetic_starter
+Wiring,high,South Delhi,urgent,evening,144,1590.0,synthetic_starter
+Electrical appliance connection,low,South Delhi,normal,evening,44,540.0,synthetic_starter
+Fan installation/repair,low,North Delhi,normal,morning,20,270.0,synthetic_starter
+General electrical maintenance,high,Central Delhi,normal,evening,106,1010.0,synthetic_starter
+Electrical appliance connection,high,East Delhi,normal,morning,126,960.0,synthetic_starter
+Wiring,low,Dwarka/NCR,urgent,morning,55,790.0,synthetic_starter
+MCB/circuit breaker,medium,Dwarka/NCR,normal,afternoon,65,710.0,synthetic_starter
+Lighting,low,East Delhi,normal,morning,22,220.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,normal,morning,75,680.0,synthetic_starter
+Lighting,medium,North Delhi,urgent,night,64,780.0,synthetic_starter
+Inverter,medium,West Delhi,normal,morning,86,930.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,urgent,afternoon,49,720.0,synthetic_starter
+General electrical maintenance,low,North Delhi,normal,afternoon,58,500.0,synthetic_starter
+Wiring,medium,North Delhi,urgent,evening,87,1050.0,synthetic_starter
+Switchboard,medium,East Delhi,normal,evening,91,630.0,synthetic_starter
+Electrical appliance connection,high,East Delhi,emergency,afternoon,107,1190.0,synthetic_starter
+Switchboard,high,Central Delhi,normal,morning,117,890.0,synthetic_starter
+Electrical appliance connection,low,South Delhi,normal,morning,46,420.0,synthetic_starter
+General electrical maintenance,high,South Delhi,urgent,afternoon,120,1100.0,synthetic_starter
+Inverter,medium,South Delhi,emergency,night,90,1480.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,normal,evening,58,680.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,normal,evening,54,490.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,normal,afternoon,104,830.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,normal,morning,48,540.0,synthetic_starter
+General electrical maintenance,low,South Delhi,normal,afternoon,48,370.0,synthetic_starter
+Wiring,low,South Delhi,urgent,evening,57,850.0,synthetic_starter
+Electrical appliance connection,low,East Delhi,normal,afternoon,42,450.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,urgent,afternoon,56,640.0,synthetic_starter
+Wiring,low,Dwarka/NCR,normal,afternoon,49,590.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,afternoon,68,600.0,synthetic_starter
+MCB/circuit breaker,medium,Dwarka/NCR,normal,afternoon,59,710.0,synthetic_starter
+Switchboard,medium,East Delhi,emergency,evening,74,880.0,synthetic_starter
+Inverter,medium,Dwarka/NCR,emergency,evening,72,1280.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,normal,evening,79,710.0,synthetic_starter
+Switchboard,medium,Central Delhi,urgent,afternoon,40,550.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,emergency,afternoon,38,940.0,synthetic_starter
+Wiring,low,East Delhi,normal,evening,66,690.0,synthetic_starter
+Switchboard,medium,South Delhi,normal,morning,62,480.0,synthetic_starter
+Inverter,high,East Delhi,urgent,evening,137,1420.0,synthetic_starter
+Wiring,high,North Delhi,normal,afternoon,127,1200.0,synthetic_starter
+Electrical appliance connection,high,West Delhi,urgent,morning,81,1080.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,normal,afternoon,31,420.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,normal,evening,43,640.0,synthetic_starter
+Inverter,medium,Central Delhi,normal,afternoon,64,910.0,synthetic_starter
+Lighting,medium,Dwarka/NCR,normal,afternoon,46,440.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,urgent,afternoon,56,810.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,night,39,610.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,urgent,afternoon,63,700.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,normal,evening,39,560.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,afternoon,75,540.0,synthetic_starter
+Fan installation/repair,high,East Delhi,urgent,morning,119,1050.0,synthetic_starter
+Lighting,high,North Delhi,normal,afternoon,121,620.0,synthetic_starter
+Inverter,low,South Delhi,normal,morning,49,670.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,normal,afternoon,47,460.0,synthetic_starter
+Lighting,low,Central Delhi,normal,afternoon,34,360.0,synthetic_starter
+Lighting,low,Dwarka/NCR,normal,afternoon,20,300.0,synthetic_starter
+MCB/circuit breaker,high,East Delhi,normal,afternoon,82,860.0,synthetic_starter
+Electrical appliance connection,low,East Delhi,normal,night,21,520.0,synthetic_starter
+Electrical appliance connection,low,East Delhi,normal,morning,38,430.0,synthetic_starter
+General electrical maintenance,low,Central Delhi,normal,evening,47,580.0,synthetic_starter
+Switchboard,high,North Delhi,normal,evening,131,890.0,synthetic_starter
+General electrical maintenance,high,East Delhi,normal,night,97,1110.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,urgent,morning,67,760.0,synthetic_starter
+Fan installation/repair,medium,Central Delhi,normal,morning,64,520.0,synthetic_starter
+Lighting,low,South Delhi,urgent,evening,55,650.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,normal,morning,71,830.0,synthetic_starter
+Electrical appliance connection,high,North Delhi,normal,morning,131,1020.0,synthetic_starter
+Lighting,high,South Delhi,emergency,afternoon,97,1040.0,synthetic_starter
+Inverter,medium,South Delhi,normal,evening,63,970.0,synthetic_starter
+Wiring,low,North Delhi,urgent,morning,49,650.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,urgent,afternoon,58,760.0,synthetic_starter
+Switchboard,medium,West Delhi,normal,evening,63,540.0,synthetic_starter
+General electrical maintenance,high,South Delhi,normal,evening,113,980.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,urgent,night,21,620.0,synthetic_starter
+General electrical maintenance,high,East Delhi,normal,afternoon,124,770.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,normal,night,50,790.0,synthetic_starter
+MCB/circuit breaker,low,South Delhi,urgent,morning,57,740.0,synthetic_starter
+Electrical appliance connection,high,East Delhi,normal,morning,148,1060.0,synthetic_starter
+Lighting,medium,West Delhi,emergency,afternoon,70,790.0,synthetic_starter
+Fan installation/repair,low,West Delhi,normal,evening,20,430.0,synthetic_starter
+Inverter,low,Central Delhi,urgent,night,51,1050.0,synthetic_starter
+General electrical maintenance,medium,Central Delhi,normal,morning,63,580.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,normal,morning,84,840.0,synthetic_starter
+Fan installation/repair,high,East Delhi,emergency,night,96,1250.0,synthetic_starter
+MCB/circuit breaker,low,South Delhi,normal,afternoon,20,420.0,synthetic_starter
+Inverter,medium,North Delhi,normal,morning,81,890.0,synthetic_starter
+Fan installation/repair,medium,North Delhi,normal,afternoon,64,550.0,synthetic_starter
+Wiring,low,East Delhi,emergency,morning,57,840.0,synthetic_starter
+Lighting,high,Central Delhi,normal,afternoon,116,740.0,synthetic_starter
+General electrical maintenance,high,East Delhi,urgent,afternoon,116,1070.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,emergency,night,28,910.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,normal,afternoon,60,550.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,emergency,morning,67,790.0,synthetic_starter
+Switchboard,low,Central Delhi,normal,night,45,610.0,synthetic_starter
+Wiring,medium,West Delhi,normal,morning,49,750.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,normal,night,46,720.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,urgent,evening,64,850.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,urgent,morning,43,580.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,normal,morning,58,630.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,urgent,afternoon,30,410.0,synthetic_starter
+Wiring,high,West Delhi,normal,morning,143,1280.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,emergency,evening,67,1140.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,emergency,afternoon,50,770.0,synthetic_starter
+General electrical maintenance,medium,North Delhi,normal,night,69,780.0,synthetic_starter
+Lighting,medium,West Delhi,normal,morning,64,490.0,synthetic_starter
+Switchboard,medium,North Delhi,normal,afternoon,77,500.0,synthetic_starter
+General electrical maintenance,low,Dwarka/NCR,urgent,morning,31,520.0,synthetic_starter
+Fan installation/repair,medium,Central Delhi,emergency,morning,67,840.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,evening,72,780.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,afternoon,59,730.0,synthetic_starter
+Fan installation/repair,high,West Delhi,urgent,afternoon,121,1050.0,synthetic_starter
+Lighting,low,North Delhi,normal,night,41,470.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,urgent,evening,89,800.0,synthetic_starter
+Inverter,medium,Central Delhi,normal,morning,90,970.0,synthetic_starter
+Fan installation/repair,high,Central Delhi,urgent,morning,109,1010.0,synthetic_starter
+Lighting,high,East Delhi,normal,evening,96,690.0,synthetic_starter
+Lighting,low,Dwarka/NCR,normal,afternoon,68,370.0,synthetic_starter
+Fan installation/repair,low,Dwarka/NCR,normal,evening,35,450.0,synthetic_starter
+Switchboard,low,North Delhi,urgent,morning,31,430.0,synthetic_starter
+Switchboard,medium,North Delhi,urgent,night,74,930.0,synthetic_starter
+Inverter,high,East Delhi,normal,afternoon,142,1290.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,urgent,evening,50,760.0,synthetic_starter
+Lighting,medium,Central Delhi,urgent,afternoon,57,610.0,synthetic_starter
+MCB/circuit breaker,low,Dwarka/NCR,normal,afternoon,23,480.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,morning,56,740.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,urgent,evening,31,570.0,synthetic_starter
+Wiring,medium,South Delhi,urgent,morning,85,1060.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,normal,morning,53,640.0,synthetic_starter
+General electrical maintenance,low,South Delhi,normal,morning,47,480.0,synthetic_starter
+Inverter,low,Dwarka/NCR,urgent,afternoon,61,800.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,normal,morning,105,880.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,evening,81,630.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,normal,morning,48,720.0,synthetic_starter
+Wiring,medium,East Delhi,normal,morning,90,750.0,synthetic_starter
+Lighting,medium,North Delhi,normal,morning,43,370.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,emergency,afternoon,47,760.0,synthetic_starter
+Lighting,low,South Delhi,normal,morning,23,360.0,synthetic_starter
+General electrical maintenance,low,South Delhi,normal,morning,33,400.0,synthetic_starter
+Switchboard,medium,Central Delhi,normal,afternoon,63,580.0,synthetic_starter
+Lighting,high,Central Delhi,emergency,morning,93,940.0,synthetic_starter
+Lighting,low,North Delhi,urgent,evening,50,550.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,normal,afternoon,28,350.0,synthetic_starter
+General electrical maintenance,low,East Delhi,emergency,afternoon,36,720.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,normal,morning,53,520.0,synthetic_starter
+Wiring,medium,North Delhi,normal,afternoon,85,790.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,afternoon,78,640.0,synthetic_starter
+Fan installation/repair,medium,North Delhi,normal,afternoon,59,610.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,normal,morning,54,580.0,synthetic_starter
+MCB/circuit breaker,high,Central Delhi,emergency,afternoon,117,1550.0,synthetic_starter
+Inverter,medium,Dwarka/NCR,emergency,afternoon,85,1190.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,evening,33,440.0,synthetic_starter
+Switchboard,low,West Delhi,urgent,afternoon,34,560.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,normal,evening,20,450.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,urgent,morning,98,890.0,synthetic_starter
+MCB/circuit breaker,low,West Delhi,urgent,afternoon,31,500.0,synthetic_starter
+Inverter,medium,North Delhi,normal,afternoon,70,850.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,normal,evening,32,410.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,evening,59,670.0,synthetic_starter
+Switchboard,medium,South Delhi,normal,morning,58,560.0,synthetic_starter
+Lighting,low,West Delhi,emergency,afternoon,39,720.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,evening,50,730.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,emergency,night,63,1100.0,synthetic_starter
+MCB/circuit breaker,high,Central Delhi,normal,night,94,1310.0,synthetic_starter
+Wiring,low,Dwarka/NCR,normal,night,55,800.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,emergency,morning,30,750.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,urgent,evening,20,540.0,synthetic_starter
+MCB/circuit breaker,high,Dwarka/NCR,normal,evening,116,1160.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,urgent,afternoon,106,1020.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,normal,morning,64,520.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,morning,37,520.0,synthetic_starter
+Electrical appliance connection,medium,Central Delhi,emergency,night,74,1210.0,synthetic_starter
+Fan installation/repair,low,South Delhi,normal,afternoon,38,460.0,synthetic_starter
+Inverter,low,North Delhi,urgent,afternoon,41,770.0,synthetic_starter
+Switchboard,low,West Delhi,normal,afternoon,46,370.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,afternoon,62,490.0,synthetic_starter
+Switchboard,low,West Delhi,urgent,morning,31,420.0,synthetic_starter
+Electrical appliance connection,medium,South Delhi,normal,afternoon,54,530.0,synthetic_starter
+Wiring,medium,West Delhi,normal,morning,68,850.0,synthetic_starter
+Inverter,low,North Delhi,emergency,afternoon,56,910.0,synthetic_starter
+Inverter,high,South Delhi,urgent,evening,152,1670.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,evening,71,560.0,synthetic_starter
+Inverter,medium,West Delhi,urgent,afternoon,69,920.0,synthetic_starter
+MCB/circuit breaker,medium,Central Delhi,normal,morning,59,640.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,normal,night,30,610.0,synthetic_starter
+Lighting,medium,Central Delhi,emergency,evening,69,850.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,normal,morning,52,590.0,synthetic_starter
+Inverter,medium,North Delhi,normal,afternoon,88,810.0,synthetic_starter
+Wiring,medium,East Delhi,urgent,morning,100,1000.0,synthetic_starter
+Switchboard,medium,West Delhi,normal,evening,83,620.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,normal,afternoon,39,550.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,urgent,evening,69,890.0,synthetic_starter
+Lighting,high,Dwarka/NCR,urgent,afternoon,124,890.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,afternoon,71,660.0,synthetic_starter
+General electrical maintenance,low,South Delhi,urgent,evening,23,670.0,synthetic_starter
+Wiring,low,Dwarka/NCR,normal,morning,76,660.0,synthetic_starter
+Lighting,medium,West Delhi,normal,morning,41,360.0,synthetic_starter
+Inverter,medium,Dwarka/NCR,urgent,evening,76,1110.0,synthetic_starter
+Switchboard,low,East Delhi,emergency,morning,25,560.0,synthetic_starter
+Lighting,low,Central Delhi,emergency,morning,43,600.0,synthetic_starter
+Inverter,medium,Central Delhi,urgent,afternoon,67,990.0,synthetic_starter
+Inverter,medium,South Delhi,emergency,morning,99,1320.0,synthetic_starter
+Inverter,low,East Delhi,normal,evening,31,640.0,synthetic_starter
+Switchboard,medium,Central Delhi,normal,evening,57,550.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,night,78,700.0,synthetic_starter
+Wiring,low,East Delhi,normal,morning,56,630.0,synthetic_starter
+Switchboard,medium,Central Delhi,emergency,evening,63,910.0,synthetic_starter
+Wiring,low,Central Delhi,emergency,afternoon,94,1000.0,synthetic_starter
+Inverter,low,West Delhi,normal,evening,69,780.0,synthetic_starter
+Lighting,high,Dwarka/NCR,urgent,morning,114,920.0,synthetic_starter
+MCB/circuit breaker,medium,Central Delhi,urgent,morning,63,940.0,synthetic_starter
+Wiring,medium,East Delhi,urgent,afternoon,67,910.0,synthetic_starter
+Switchboard,low,East Delhi,normal,morning,35,320.0,synthetic_starter
+MCB/circuit breaker,medium,North Delhi,urgent,night,75,1070.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,evening,38,560.0,synthetic_starter
+Electrical appliance connection,high,Dwarka/NCR,normal,evening,131,1140.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,morning,51,650.0,synthetic_starter
+MCB/circuit breaker,high,Dwarka/NCR,normal,evening,90,1120.0,synthetic_starter
+Fan installation/repair,high,North Delhi,normal,morning,97,770.0,synthetic_starter
+MCB/circuit breaker,low,West Delhi,normal,evening,37,540.0,synthetic_starter
+Lighting,low,Dwarka/NCR,urgent,morning,20,380.0,synthetic_starter
+Fan installation/repair,medium,Central Delhi,urgent,morning,39,680.0,synthetic_starter
+Fan installation/repair,medium,Dwarka/NCR,urgent,evening,62,850.0,synthetic_starter
+Wiring,medium,West Delhi,normal,night,78,910.0,synthetic_starter
+General electrical maintenance,low,North Delhi,emergency,night,27,860.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,normal,morning,27,530.0,synthetic_starter
+Wiring,low,South Delhi,urgent,afternoon,60,810.0,synthetic_starter
+Lighting,medium,Dwarka/NCR,normal,evening,53,530.0,synthetic_starter
+Switchboard,low,West Delhi,urgent,morning,30,530.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,urgent,evening,28,630.0,synthetic_starter
+Switchboard,low,Central Delhi,urgent,night,27,660.0,synthetic_starter
+Switchboard,medium,Central Delhi,urgent,afternoon,47,640.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,urgent,morning,47,620.0,synthetic_starter
+Lighting,low,South Delhi,normal,evening,29,380.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,urgent,night,43,870.0,synthetic_starter
+Inverter,medium,North Delhi,normal,afternoon,55,730.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,emergency,afternoon,63,920.0,synthetic_starter
+Switchboard,low,South Delhi,normal,evening,20,370.0,synthetic_starter
+Switchboard,low,North Delhi,emergency,morning,34,660.0,synthetic_starter
+Lighting,medium,North Delhi,urgent,morning,65,590.0,synthetic_starter
+Switchboard,high,East Delhi,emergency,morning,113,1070.0,synthetic_starter
+Inverter,medium,Central Delhi,emergency,night,90,1480.0,synthetic_starter
+Inverter,high,Dwarka/NCR,normal,afternoon,124,1330.0,synthetic_starter
+General electrical maintenance,high,West Delhi,emergency,night,118,1430.0,synthetic_starter
+Wiring,medium,Central Delhi,normal,afternoon,87,900.0,synthetic_starter
+Inverter,low,East Delhi,normal,morning,70,580.0,synthetic_starter
+General electrical maintenance,low,West Delhi,urgent,afternoon,30,550.0,synthetic_starter
+Wiring,medium,Central Delhi,normal,morning,90,890.0,synthetic_starter
+Electrical appliance connection,high,South Delhi,normal,afternoon,117,1010.0,synthetic_starter
+Lighting,high,South Delhi,emergency,morning,107,1100.0,synthetic_starter
+Fan installation/repair,low,North Delhi,normal,evening,27,350.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,afternoon,77,560.0,synthetic_starter
+Inverter,medium,South Delhi,urgent,morning,60,1050.0,synthetic_starter
+Switchboard,medium,North Delhi,urgent,evening,72,680.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,normal,morning,20,440.0,synthetic_starter
+Wiring,high,Central Delhi,emergency,morning,142,1670.0,synthetic_starter
+Fan installation/repair,high,Dwarka/NCR,normal,evening,104,930.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,evening,74,460.0,synthetic_starter
+Lighting,medium,West Delhi,normal,evening,46,510.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,morning,53,430.0,synthetic_starter
+Wiring,low,West Delhi,normal,afternoon,49,640.0,synthetic_starter
+Wiring,high,Central Delhi,normal,evening,126,1340.0,synthetic_starter
+Lighting,low,Dwarka/NCR,urgent,night,30,550.0,synthetic_starter
+Inverter,low,East Delhi,normal,afternoon,60,630.0,synthetic_starter
+MCB/circuit breaker,high,West Delhi,normal,evening,120,1080.0,synthetic_starter
+Fan installation/repair,low,North Delhi,emergency,afternoon,31,670.0,synthetic_starter
+Switchboard,low,East Delhi,normal,morning,29,340.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,normal,afternoon,20,460.0,synthetic_starter
+Electrical appliance connection,low,South Delhi,normal,afternoon,37,460.0,synthetic_starter
+Wiring,medium,West Delhi,normal,morning,87,810.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,urgent,night,37,820.0,synthetic_starter
+Switchboard,low,East Delhi,urgent,evening,28,600.0,synthetic_starter
+Inverter,medium,South Delhi,normal,morning,68,980.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,afternoon,44,710.0,synthetic_starter
+Fan installation/repair,low,West Delhi,normal,night,36,580.0,synthetic_starter
+Wiring,medium,South Delhi,emergency,afternoon,75,1220.0,synthetic_starter
+General electrical maintenance,high,North Delhi,normal,morning,78,780.0,synthetic_starter
+Fan installation/repair,high,North Delhi,normal,morning,105,820.0,synthetic_starter
+MCB/circuit breaker,medium,Central Delhi,normal,evening,63,860.0,synthetic_starter
+Lighting,medium,West Delhi,normal,afternoon,48,440.0,synthetic_starter
+Fan installation/repair,high,Central Delhi,normal,morning,95,930.0,synthetic_starter
+General electrical maintenance,medium,Central Delhi,normal,evening,54,580.0,synthetic_starter
+Switchboard,medium,East Delhi,emergency,afternoon,63,820.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,urgent,morning,41,560.0,synthetic_starter
+Fan installation/repair,low,South Delhi,normal,morning,35,360.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,normal,afternoon,64,600.0,synthetic_starter
+Switchboard,medium,Central Delhi,emergency,night,58,1020.0,synthetic_starter
+General electrical maintenance,medium,Central Delhi,urgent,evening,61,860.0,synthetic_starter
+Wiring,high,East Delhi,normal,night,113,1390.0,synthetic_starter
+Lighting,low,East Delhi,urgent,morning,31,400.0,synthetic_starter
+Electrical appliance connection,high,North Delhi,normal,morning,114,960.0,synthetic_starter
+Inverter,low,West Delhi,normal,afternoon,60,650.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,afternoon,50,610.0,synthetic_starter
+Fan installation/repair,low,North Delhi,normal,afternoon,40,430.0,synthetic_starter
+General electrical maintenance,high,Central Delhi,urgent,night,100,1250.0,synthetic_starter
+General electrical maintenance,low,North Delhi,urgent,afternoon,33,500.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,urgent,morning,48,780.0,synthetic_starter
+Wiring,medium,South Delhi,normal,evening,74,900.0,synthetic_starter
+Fan installation/repair,low,Dwarka/NCR,normal,afternoon,43,380.0,synthetic_starter
+Lighting,low,South Delhi,emergency,afternoon,50,720.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,normal,night,26,590.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,normal,morning,64,560.0,synthetic_starter
+Lighting,low,East Delhi,normal,evening,60,430.0,synthetic_starter
+Lighting,high,South Delhi,urgent,evening,108,930.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,normal,morning,48,540.0,synthetic_starter
+Inverter,low,West Delhi,normal,evening,57,660.0,synthetic_starter
+Inverter,medium,North Delhi,normal,afternoon,97,880.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,normal,afternoon,94,920.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,normal,morning,35,430.0,synthetic_starter
+Wiring,high,East Delhi,urgent,afternoon,136,1290.0,synthetic_starter
+MCB/circuit breaker,low,Dwarka/NCR,normal,morning,61,580.0,synthetic_starter
+Lighting,low,West Delhi,normal,evening,23,280.0,synthetic_starter
+Lighting,medium,Dwarka/NCR,normal,morning,74,460.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,normal,morning,20,390.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,emergency,evening,68,920.0,synthetic_starter
+Electrical appliance connection,low,West Delhi,normal,afternoon,48,490.0,synthetic_starter
+MCB/circuit breaker,low,Dwarka/NCR,normal,morning,40,540.0,synthetic_starter
+Fan installation/repair,medium,Central Delhi,normal,night,64,760.0,synthetic_starter
+Wiring,low,West Delhi,normal,night,44,850.0,synthetic_starter
+Switchboard,medium,North Delhi,normal,afternoon,73,530.0,synthetic_starter
+Inverter,medium,West Delhi,urgent,afternoon,96,980.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,urgent,morning,48,630.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,normal,morning,104,850.0,synthetic_starter
+Inverter,medium,Central Delhi,normal,evening,108,1080.0,synthetic_starter
+General electrical maintenance,low,Dwarka/NCR,urgent,morning,51,590.0,synthetic_starter
+Wiring,medium,North Delhi,normal,afternoon,111,870.0,synthetic_starter
+Fan installation/repair,low,West Delhi,normal,morning,20,360.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,evening,49,590.0,synthetic_starter
+Lighting,low,South Delhi,normal,evening,68,520.0,synthetic_starter
+Fan installation/repair,low,East Delhi,normal,evening,20,370.0,synthetic_starter
+Fan installation/repair,high,North Delhi,normal,morning,128,910.0,synthetic_starter
+MCB/circuit breaker,medium,North Delhi,urgent,night,45,860.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,normal,night,53,670.0,synthetic_starter
+Lighting,medium,West Delhi,normal,morning,73,460.0,synthetic_starter
+Switchboard,high,South Delhi,normal,morning,108,900.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,evening,60,560.0,synthetic_starter
+Wiring,medium,East Delhi,normal,afternoon,93,790.0,synthetic_starter
+Wiring,medium,North Delhi,normal,evening,61,840.0,synthetic_starter
+Wiring,medium,Central Delhi,normal,afternoon,79,880.0,synthetic_starter
+Electrical appliance connection,medium,North Delhi,urgent,evening,63,780.0,synthetic_starter
+Electrical appliance connection,medium,North Delhi,urgent,morning,63,730.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,afternoon,39,460.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,afternoon,67,460.0,synthetic_starter
+Wiring,medium,East Delhi,normal,morning,86,850.0,synthetic_starter
+Switchboard,high,West Delhi,normal,morning,91,760.0,synthetic_starter
+Wiring,medium,East Delhi,urgent,evening,73,980.0,synthetic_starter
+Switchboard,high,South Delhi,emergency,afternoon,98,1150.0,synthetic_starter
+Inverter,medium,East Delhi,normal,evening,94,970.0,synthetic_starter
+Inverter,low,Central Delhi,emergency,night,55,1210.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,normal,morning,44,470.0,synthetic_starter
+Fan installation/repair,low,South Delhi,normal,morning,29,460.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,emergency,morning,63,970.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,urgent,evening,69,760.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,urgent,afternoon,83,980.0,synthetic_starter
+Fan installation/repair,medium,North Delhi,normal,morning,62,540.0,synthetic_starter
+Wiring,low,Dwarka/NCR,normal,morning,73,760.0,synthetic_starter
+Wiring,high,North Delhi,normal,evening,141,1290.0,synthetic_starter
+Fan installation/repair,low,West Delhi,urgent,evening,53,650.0,synthetic_starter
+Inverter,medium,North Delhi,normal,morning,87,900.0,synthetic_starter
+Lighting,medium,South Delhi,urgent,evening,66,620.0,synthetic_starter
+Fan installation/repair,high,East Delhi,normal,night,107,930.0,synthetic_starter
+Fan installation/repair,low,South Delhi,normal,afternoon,47,430.0,synthetic_starter
+Switchboard,medium,West Delhi,urgent,night,57,870.0,synthetic_starter
+Inverter,low,Dwarka/NCR,normal,night,65,890.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,urgent,morning,56,810.0,synthetic_starter
+Electrical appliance connection,medium,Central Delhi,normal,night,54,760.0,synthetic_starter
+Fan installation/repair,low,East Delhi,normal,morning,52,480.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,emergency,morning,123,1220.0,synthetic_starter
+Switchboard,medium,West Delhi,normal,morning,87,590.0,synthetic_starter
+MCB/circuit breaker,high,West Delhi,urgent,afternoon,100,1120.0,synthetic_starter
+MCB/circuit breaker,high,Central Delhi,normal,evening,108,1210.0,synthetic_starter
+Fan installation/repair,low,Dwarka/NCR,emergency,evening,38,800.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,normal,evening,90,750.0,synthetic_starter
+General electrical maintenance,medium,Dwarka/NCR,normal,morning,53,630.0,synthetic_starter
+Inverter,medium,West Delhi,normal,afternoon,73,840.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,normal,afternoon,52,720.0,synthetic_starter
+Lighting,medium,West Delhi,normal,afternoon,50,490.0,synthetic_starter
+Wiring,high,West Delhi,urgent,morning,128,1350.0,synthetic_starter
+Electrical appliance connection,low,East Delhi,urgent,morning,36,510.0,synthetic_starter
+Lighting,high,West Delhi,emergency,evening,118,1160.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,urgent,evening,67,970.0,synthetic_starter
+Inverter,medium,East Delhi,normal,night,104,1070.0,synthetic_starter
+MCB/circuit breaker,high,North Delhi,normal,morning,111,1080.0,synthetic_starter
+General electrical maintenance,medium,Central Delhi,emergency,morning,48,900.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,morning,42,480.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,emergency,morning,52,930.0,synthetic_starter
+Wiring,low,West Delhi,normal,morning,64,690.0,synthetic_starter
+Wiring,low,North Delhi,urgent,morning,57,770.0,synthetic_starter
+Lighting,low,East Delhi,normal,afternoon,32,340.0,synthetic_starter
+Wiring,high,East Delhi,normal,night,130,1430.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,normal,evening,49,720.0,synthetic_starter
+MCB/circuit breaker,low,Central Delhi,emergency,afternoon,32,860.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,urgent,night,43,800.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,morning,61,740.0,synthetic_starter
+Electrical appliance connection,medium,South Delhi,normal,morning,62,660.0,synthetic_starter
+Inverter,high,North Delhi,normal,evening,119,1230.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,normal,evening,105,790.0,synthetic_starter
+Electrical appliance connection,high,East Delhi,normal,morning,117,900.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,urgent,morning,29,530.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,morning,40,450.0,synthetic_starter
+Electrical appliance connection,medium,North Delhi,emergency,morning,69,980.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,urgent,afternoon,103,990.0,synthetic_starter
+MCB/circuit breaker,low,East Delhi,normal,afternoon,46,510.0,synthetic_starter
+Fan installation/repair,medium,North Delhi,normal,afternoon,66,530.0,synthetic_starter
+Lighting,medium,West Delhi,normal,morning,66,510.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,normal,afternoon,53,720.0,synthetic_starter
+Lighting,medium,Central Delhi,emergency,evening,73,920.0,synthetic_starter
+General electrical maintenance,medium,West Delhi,normal,morning,56,600.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,emergency,morning,80,910.0,synthetic_starter
+Wiring,low,South Delhi,normal,morning,55,640.0,synthetic_starter
+Fan installation/repair,low,North Delhi,normal,morning,44,430.0,synthetic_starter
+Lighting,low,North Delhi,normal,night,22,460.0,synthetic_starter
+Switchboard,high,South Delhi,urgent,afternoon,139,1010.0,synthetic_starter
+Lighting,low,Dwarka/NCR,urgent,afternoon,33,470.0,synthetic_starter
+Fan installation/repair,high,South Delhi,normal,evening,123,1050.0,synthetic_starter
+Lighting,medium,Dwarka/NCR,urgent,morning,52,610.0,synthetic_starter
+Wiring,low,West Delhi,normal,evening,62,640.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,normal,evening,24,400.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,normal,evening,44,560.0,synthetic_starter
+General electrical maintenance,high,North Delhi,urgent,afternoon,101,930.0,synthetic_starter
+General electrical maintenance,low,Central Delhi,emergency,morning,28,690.0,synthetic_starter
+Inverter,medium,Central Delhi,normal,evening,98,1060.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,normal,night,56,780.0,synthetic_starter
+Inverter,low,South Delhi,normal,night,52,860.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,normal,afternoon,69,630.0,synthetic_starter
+Switchboard,low,North Delhi,normal,evening,35,440.0,synthetic_starter
+General electrical maintenance,high,North Delhi,urgent,evening,132,1120.0,synthetic_starter
+Switchboard,low,North Delhi,normal,afternoon,56,340.0,synthetic_starter
+Lighting,medium,South Delhi,normal,afternoon,52,430.0,synthetic_starter
+Switchboard,medium,Central Delhi,normal,afternoon,56,480.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,urgent,afternoon,20,460.0,synthetic_starter
+Wiring,medium,South Delhi,normal,morning,100,960.0,synthetic_starter
+Fan installation/repair,high,Central Delhi,urgent,evening,115,1160.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,normal,morning,31,320.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,morning,62,780.0,synthetic_starter
+Wiring,medium,North Delhi,urgent,morning,85,880.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,urgent,morning,72,670.0,synthetic_starter
+General electrical maintenance,high,West Delhi,urgent,afternoon,100,990.0,synthetic_starter
+Inverter,low,Dwarka/NCR,emergency,morning,57,980.0,synthetic_starter
+MCB/circuit breaker,medium,North Delhi,urgent,morning,79,870.0,synthetic_starter
+Switchboard,medium,North Delhi,normal,night,88,730.0,synthetic_starter
+General electrical maintenance,low,West Delhi,urgent,afternoon,30,580.0,synthetic_starter
+Wiring,medium,East Delhi,urgent,night,79,1030.0,synthetic_starter
+Wiring,low,North Delhi,normal,morning,55,560.0,synthetic_starter
+Electrical appliance connection,low,East Delhi,normal,afternoon,47,460.0,synthetic_starter
+Lighting,high,Dwarka/NCR,urgent,night,128,1120.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,normal,morning,68,560.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,urgent,evening,70,1030.0,synthetic_starter
+Lighting,high,Central Delhi,normal,morning,99,720.0,synthetic_starter
+Wiring,medium,West Delhi,normal,evening,87,880.0,synthetic_starter
+Inverter,low,South Delhi,normal,afternoon,71,700.0,synthetic_starter
+Fan installation/repair,low,North Delhi,urgent,night,29,670.0,synthetic_starter
+MCB/circuit breaker,low,South Delhi,urgent,evening,64,820.0,synthetic_starter
+Wiring,medium,East Delhi,normal,morning,109,830.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,urgent,evening,75,730.0,synthetic_starter
+Fan installation/repair,medium,South Delhi,normal,morning,54,530.0,synthetic_starter
+Wiring,low,South Delhi,emergency,morning,46,910.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,urgent,evening,71,820.0,synthetic_starter
+MCB/circuit breaker,medium,South Delhi,emergency,evening,84,1230.0,synthetic_starter
+Lighting,low,East Delhi,urgent,afternoon,34,430.0,synthetic_starter
+MCB/circuit breaker,low,Dwarka/NCR,normal,morning,37,550.0,synthetic_starter
+General electrical maintenance,high,East Delhi,normal,morning,101,820.0,synthetic_starter
+Switchboard,medium,North Delhi,urgent,afternoon,68,660.0,synthetic_starter
+MCB/circuit breaker,high,South Delhi,urgent,night,101,1490.0,synthetic_starter
+MCB/circuit breaker,medium,Dwarka/NCR,normal,morning,53,630.0,synthetic_starter
+Inverter,medium,West Delhi,urgent,afternoon,82,1150.0,synthetic_starter
+MCB/circuit breaker,low,South Delhi,normal,morning,45,560.0,synthetic_starter
+Fan installation/repair,low,East Delhi,urgent,evening,40,570.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,normal,afternoon,42,470.0,synthetic_starter
+Wiring,high,South Delhi,normal,afternoon,127,1350.0,synthetic_starter
+General electrical maintenance,high,North Delhi,normal,morning,122,930.0,synthetic_starter
+Fan installation/repair,high,East Delhi,normal,night,120,1060.0,synthetic_starter
+General electrical maintenance,low,West Delhi,urgent,morning,26,540.0,synthetic_starter
+Switchboard,low,South Delhi,urgent,morning,30,430.0,synthetic_starter
+Wiring,low,Central Delhi,urgent,night,58,1050.0,synthetic_starter
+Fan installation/repair,medium,North Delhi,urgent,evening,53,770.0,synthetic_starter
+Lighting,low,North Delhi,normal,evening,40,380.0,synthetic_starter
+Wiring,low,South Delhi,urgent,evening,68,850.0,synthetic_starter
+Switchboard,medium,West Delhi,urgent,afternoon,86,750.0,synthetic_starter
+Wiring,medium,Dwarka/NCR,normal,afternoon,88,840.0,synthetic_starter
+Lighting,low,Central Delhi,emergency,evening,42,660.0,synthetic_starter
+Switchboard,medium,South Delhi,normal,night,54,740.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,normal,evening,48,470.0,synthetic_starter
+Electrical appliance connection,low,Central Delhi,normal,evening,24,440.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,urgent,afternoon,43,640.0,synthetic_starter
+Lighting,low,Central Delhi,normal,afternoon,24,280.0,synthetic_starter
+MCB/circuit breaker,low,Dwarka/NCR,normal,afternoon,29,490.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,evening,72,750.0,synthetic_starter
+Fan installation/repair,low,West Delhi,normal,morning,46,310.0,synthetic_starter
+Fan installation/repair,medium,West Delhi,normal,evening,53,650.0,synthetic_starter
+Switchboard,medium,West Delhi,normal,morning,55,430.0,synthetic_starter
+Fan installation/repair,low,North Delhi,normal,night,28,580.0,synthetic_starter
+Wiring,medium,South Delhi,normal,morning,91,1030.0,synthetic_starter
+Fan installation/repair,low,Dwarka/NCR,urgent,night,40,770.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,emergency,afternoon,57,970.0,synthetic_starter
+Lighting,high,East Delhi,normal,evening,123,810.0,synthetic_starter
+Inverter,medium,South Delhi,urgent,morning,95,1150.0,synthetic_starter
+Lighting,high,Dwarka/NCR,urgent,afternoon,110,850.0,synthetic_starter
+Inverter,medium,South Delhi,normal,afternoon,82,990.0,synthetic_starter
+MCB/circuit breaker,medium,Central Delhi,urgent,morning,80,980.0,synthetic_starter
+Lighting,medium,West Delhi,normal,morning,66,420.0,synthetic_starter
+Electrical appliance connection,high,Dwarka/NCR,urgent,afternoon,105,980.0,synthetic_starter
+Lighting,low,Central Delhi,normal,afternoon,36,330.0,synthetic_starter
+MCB/circuit breaker,low,North Delhi,normal,morning,20,420.0,synthetic_starter
+Switchboard,medium,West Delhi,urgent,afternoon,41,510.0,synthetic_starter
+Electrical appliance connection,low,North Delhi,normal,night,31,560.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,urgent,afternoon,26,450.0,synthetic_starter
+Lighting,medium,Central Delhi,urgent,afternoon,53,550.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,afternoon,67,610.0,synthetic_starter
+Inverter,high,West Delhi,emergency,night,144,1820.0,synthetic_starter
+Fan installation/repair,high,East Delhi,normal,evening,130,960.0,synthetic_starter
+MCB/circuit breaker,medium,West Delhi,normal,evening,35,680.0,synthetic_starter
+MCB/circuit breaker,medium,East Delhi,urgent,afternoon,71,830.0,synthetic_starter
+General electrical maintenance,low,North Delhi,urgent,evening,23,680.0,synthetic_starter
+Lighting,medium,East Delhi,normal,night,69,580.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,urgent,afternoon,116,910.0,synthetic_starter
+Electrical appliance connection,medium,East Delhi,urgent,morning,60,730.0,synthetic_starter
+General electrical maintenance,low,West Delhi,normal,evening,46,460.0,synthetic_starter
+General electrical maintenance,medium,South Delhi,normal,evening,68,780.0,synthetic_starter
+Inverter,low,North Delhi,normal,night,69,850.0,synthetic_starter
+Lighting,low,Central Delhi,normal,afternoon,59,450.0,synthetic_starter
+Switchboard,high,Dwarka/NCR,normal,afternoon,106,820.0,synthetic_starter
+Wiring,medium,East Delhi,emergency,evening,82,1220.0,synthetic_starter
+MCB/circuit breaker,high,North Delhi,normal,night,125,1300.0,synthetic_starter
+Wiring,high,West Delhi,normal,evening,132,1230.0,synthetic_starter
+General electrical maintenance,low,West Delhi,normal,evening,34,500.0,synthetic_starter
+Switchboard,medium,South Delhi,urgent,afternoon,75,750.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,evening,65,640.0,synthetic_starter
+Wiring,high,Central Delhi,normal,morning,147,1390.0,synthetic_starter
+Switchboard,low,West Delhi,normal,afternoon,42,320.0,synthetic_starter
+Electrical appliance connection,low,South Delhi,normal,morning,53,540.0,synthetic_starter
+Lighting,medium,Central Delhi,emergency,afternoon,57,850.0,synthetic_starter
+Fan installation/repair,low,South Delhi,emergency,evening,30,820.0,synthetic_starter
+Switchboard,medium,Dwarka/NCR,normal,night,64,700.0,synthetic_starter
+Switchboard,low,Central Delhi,emergency,afternoon,41,670.0,synthetic_starter
+Fan installation/repair,high,South Delhi,normal,evening,106,970.0,synthetic_starter
+Inverter,high,South Delhi,normal,morning,136,1380.0,synthetic_starter
+Switchboard,low,West Delhi,urgent,morning,20,460.0,synthetic_starter
+MCB/circuit breaker,low,Central Delhi,normal,morning,34,500.0,synthetic_starter
+Switchboard,high,Central Delhi,emergency,evening,93,1190.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,normal,afternoon,59,430.0,synthetic_starter
+Inverter,low,Central Delhi,urgent,evening,76,1030.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,urgent,morning,28,450.0,synthetic_starter
+Wiring,low,Central Delhi,normal,night,77,910.0,synthetic_starter
+Inverter,medium,South Delhi,normal,afternoon,84,1000.0,synthetic_starter
+Fan installation/repair,low,Central Delhi,normal,afternoon,36,330.0,synthetic_starter
+Lighting,medium,North Delhi,normal,morning,56,440.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,urgent,evening,84,890.0,synthetic_starter
+General electrical maintenance,high,Dwarka/NCR,urgent,evening,124,1110.0,synthetic_starter
+Switchboard,medium,North Delhi,urgent,afternoon,76,670.0,synthetic_starter
+Electrical appliance connection,low,Dwarka/NCR,urgent,evening,27,600.0,synthetic_starter
+Lighting,medium,North Delhi,normal,night,60,700.0,synthetic_starter
+General electrical maintenance,medium,East Delhi,normal,morning,64,550.0,synthetic_starter
+Wiring,medium,South Delhi,normal,evening,89,970.0,synthetic_starter
+Electrical appliance connection,medium,South Delhi,normal,evening,46,620.0,synthetic_starter
+Lighting,low,Central Delhi,emergency,morning,20,540.0,synthetic_starter
+Lighting,low,South Delhi,normal,evening,35,360.0,synthetic_starter
+Switchboard,medium,North Delhi,emergency,night,63,950.0,synthetic_starter
+Lighting,medium,East Delhi,urgent,morning,58,470.0,synthetic_starter
+Inverter,high,South Delhi,emergency,morning,133,1700.0,synthetic_starter
+Switchboard,low,Dwarka/NCR,normal,evening,25,400.0,synthetic_starter
+Wiring,low,South Delhi,normal,evening,56,740.0,synthetic_starter
+Inverter,low,West Delhi,normal,morning,49,650.0,synthetic_starter
+Fan installation/repair,low,South Delhi,urgent,evening,43,680.0,synthetic_starter
+General electrical maintenance,low,North Delhi,normal,morning,42,420.0,synthetic_starter
+General electrical maintenance,low,West Delhi,urgent,evening,30,580.0,synthetic_starter
+Wiring,low,North Delhi,urgent,afternoon,54,640.0,synthetic_starter
+Electrical appliance connection,medium,Dwarka/NCR,normal,evening,55,600.0,synthetic_starter
+Fan installation/repair,medium,Central Delhi,urgent,morning,52,700.0,synthetic_starter
+Fan installation/repair,medium,East Delhi,urgent,afternoon,58,600.0,synthetic_starter
+Inverter,low,East Delhi,normal,afternoon,63,650.0,synthetic_starter
+Electrical appliance connection,medium,West Delhi,normal,evening,71,740.0,synthetic_starter
+Lighting,medium,South Delhi,normal,evening,73,540.0,synthetic_starter
+MCB/circuit breaker,medium,Central Delhi,normal,evening,64,740.0,synthetic_starter

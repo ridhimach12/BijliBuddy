@@ -1,0 +1,433 @@
+template_id,description,category,dataset_source
+General electrical maintenance::15,"At our Delhi residence, testing wall sockets polarity and earthing continuity Please send a qualified technician.",General electrical maintenance,synthetic_starter
+Switchboard::7,Replace cracked 4-switch modular plate in guest room,Switchboard,synthetic_starter
+Lighting::6,Staircase corridor light switch works intermittently,Lighting,synthetic_starter
+Wiring::10,Need fresh 2.5 sq mm copper wiring run to balcony,Wiring,synthetic_starter
+General electrical maintenance::4,"At our Delhi residence, Check high electricity bill and inspect faulty meter load",General electrical maintenance,synthetic_starter
+Inverter::1,Urgent help needed: Need fresh inverter and tubular battery wiring for 3BHK Need repair today.,Inverter,synthetic_starter
+General electrical maintenance::12,Check appliance earthing across kitchen and bathroom points,General electrical maintenance,synthetic_starter
+Fan installation/repair::15,"At our Delhi residence, ceiling fan rotating backwards or sluggishly after repair Please send a qualified technician.",Fan installation/repair,synthetic_starter
+Lighting::11,Install pendant hanging lamps above dining table,Lighting,synthetic_starter
+Fan installation/repair::13,Urgent help needed: fan downrod loose and vibrating dangerously on ceiling hook,Fan installation/repair,synthetic_starter
+Fan installation/repair::15,Ceiling fan rotating backwards or sluggishly after repair,Fan installation/repair,synthetic_starter
+Switchboard::5,power socket burnt while using iron on bedroom board Please send a qualified technician.,Switchboard,synthetic_starter
+Lighting::12,"In our flat, lED downlight driver buzzing and blinking rapidly Happened after power fluctuation.",Lighting,synthetic_starter
+Electrical appliance connection::3,"At our Delhi residence, connect voltage stabilizer and split AC outdoor power cable",Electrical appliance connection,synthetic_starter
+Wiring::13,Loose phase wire inside junction box flickering power,Wiring,synthetic_starter
+Lighting::3,"Since morning, Balcony waterproof outdoor wall light not turning on Please send a qualified technician.",Lighting,synthetic_starter
+General electrical maintenance::1,Urgent help needed: frequent voltage fluctuation across entire apartment Need repair today.,General electrical maintenance,synthetic_starter
+Switchboard::6,Switchboard making crackling sound whenever plug inserted,Switchboard,synthetic_starter
+Wiring::3,Exposed wire hanging outside balcony wall needs insulation,Wiring,synthetic_starter
+Inverter::3,"At our Delhi residence, backup power fails immediately during power cut",Inverter,synthetic_starter
+Inverter::5,battery terminal corroded and inverter wire heating up Please send a qualified technician.,Inverter,synthetic_starter
+MCB/circuit breaker::3,Sub-meter circuit breaker smoking near main entrance,MCB/circuit breaker,synthetic_starter
+General electrical maintenance::16,General troubleshooting for intermittent power drop in flat,General electrical maintenance,synthetic_starter
+Switchboard::0,"In our flat, bedroom modular switchboard sparking when turning on switch Please send a qualified technician.",Switchboard,synthetic_starter
+Electrical appliance connection::0,"In our flat, install dedicated 16A AC power point with starter switch Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+Electrical appliance connection::3,"At our Delhi residence, Connect voltage stabilizer and split AC outdoor power cable in the apartment.",Electrical appliance connection,synthetic_starter
+Fan installation/repair::16,Please inspect: wall mounted fan oscillation stuck and power cord damaged Need repair today.,Fan installation/repair,synthetic_starter
+General electrical maintenance::4,Please inspect: check high electricity bill and inspect faulty meter load in the apartment.,General electrical maintenance,synthetic_starter
+MCB/circuit breaker::11,install surge protection device and MCB in main panel Need repair today.,MCB/circuit breaker,synthetic_starter
+Inverter::16,Check distilled water terminals and DC fuse on inverter,Inverter,synthetic_starter
+Fan installation/repair::6,Ceiling fan bearing making grinding metallic sound,Fan installation/repair,synthetic_starter
+General electrical maintenance::7,Install digital voltage and ampere meter on main board,General electrical maintenance,synthetic_starter
+Inverter::11,install double battery 24V inverter setup in utility area Need repair today.,Inverter,synthetic_starter
+Switchboard::13,Indicator neon light dead and switch stuck on board,Switchboard,synthetic_starter
+General electrical maintenance::16,Please inspect: general troubleshooting for intermittent power drop in flat Need repair today.,General electrical maintenance,synthetic_starter
+Switchboard::7,"At our Delhi residence, Replace cracked 4-switch modular plate in guest room",Switchboard,synthetic_starter
+Electrical appliance connection::16,"At our Delhi residence, TV unit concealed HDMI and multi-plug power socket setup",Electrical appliance connection,synthetic_starter
+Fan installation/repair::10,Please inspect: Bathroom exhaust fan jammed and emitting slight smell in the apartment.,Fan installation/repair,synthetic_starter
+Inverter::17,need manual bypass switch installed next to inverter unit Happened after power fluctuation.,Inverter,synthetic_starter
+General electrical maintenance::16,Urgent help needed: General troubleshooting for intermittent power drop in flat Happened after power fluctuation.,General electrical maintenance,synthetic_starter
+Electrical appliance connection::9,"At our Delhi residence, install 25A metal clad socket for 2-ton split air conditioner in the apartment.",Electrical appliance connection,synthetic_starter
+Inverter::9,Disconnect geyser and AC sockets from inverter output wiring,Inverter,synthetic_starter
+Switchboard::8,Socket pins loose plug keeps falling out of wall board,Switchboard,synthetic_starter
+Switchboard::6,"In our flat, switchboard making crackling sound whenever plug inserted Need repair today.",Switchboard,synthetic_starter
+Wiring::11,Bedroom wall socket has no phase continuity in internal cable,Wiring,synthetic_starter
+Fan installation/repair::2,"In our flat, Living room ceiling fan making loud humming noise and wobbling in the apartment.",Fan installation/repair,synthetic_starter
+Inverter::9,Urgent help needed: Disconnect geyser and AC sockets from inverter output wiring Happened after power fluctuation.,Inverter,synthetic_starter
+Switchboard::7,Urgent help needed: replace cracked 4-switch modular plate in guest room Happened after power fluctuation.,Switchboard,synthetic_starter
+MCB/circuit breaker::10,Phase load unbalanced causing main breaker frequent tripping,MCB/circuit breaker,synthetic_starter
+General electrical maintenance::0,"In our flat, complete home electrical safety audit for rented flat Please send a qualified technician.",General electrical maintenance,synthetic_starter
+Wiring::5,Need new concealed cable laying for study room wall,Wiring,synthetic_starter
+MCB/circuit breaker::7,Urgent help needed: upgrade old fuse cutout box to modern MCB distribution box Happened after power fluctuation.,MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::10,"Since morning, Water purifier RO power socket installation near sink Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+Wiring::0,Concealed wall wiring is giving mild shock near bathroom,Wiring,synthetic_starter
+Wiring::6,"In our flat, neutral wire loose causing voltage fluctuation in two rooms Need repair today.",Wiring,synthetic_starter
+Inverter::2,"Since morning, home inverter beeping continuously with overload red light Happened after power fluctuation.",Inverter,synthetic_starter
+Inverter::5,Battery terminal corroded and inverter wire heating up,Inverter,synthetic_starter
+Switchboard::0,Please inspect: Bedroom modular switchboard sparking when turning on switch Happened after power fluctuation.,Switchboard,synthetic_starter
+General electrical maintenance::5,minor sparks and loose connections check across all rooms Please send a qualified technician.,General electrical maintenance,synthetic_starter
+Switchboard::9,"At our Delhi residence, bathroom switchboard got damp and switch is jammed in the apartment.",Switchboard,synthetic_starter
+Electrical appliance connection::10,Please inspect: water purifier RO power socket installation near sink Please send a qualified technician.,Electrical appliance connection,synthetic_starter
+Inverter::4,"In our flat, Inverter changeover delay causes WiFi and PC to restart in the apartment.",Inverter,synthetic_starter
+Switchboard::8,"Since morning, socket pins loose plug keeps falling out of wall board",Switchboard,synthetic_starter
+Switchboard::12,Burnt smell coming from bedside switchboard panel,Switchboard,synthetic_starter
+Electrical appliance connection::14,"Since morning, install smart WiFi plug module for geyser line in the apartment.",Electrical appliance connection,synthetic_starter
+Wiring::8,"Since morning, earthing wire disconnected causing tingling on metal taps",Wiring,synthetic_starter
+Lighting::4,Tube light driver burnt and fixture needs replacement,Lighting,synthetic_starter
+Lighting::7,Urgent help needed: false ceiling cove strip light half section dead Happened after power fluctuation.,Lighting,synthetic_starter
+Fan installation/repair::14,"At our Delhi residence, Install heavy duty exhaust fan in utility kitchen window",Fan installation/repair,synthetic_starter
+Wiring::14,Need earthing pit check and new green earth wire connection,Wiring,synthetic_starter
+Electrical appliance connection::3,Connect voltage stabilizer and split AC outdoor power cable,Electrical appliance connection,synthetic_starter
+General electrical maintenance::14,Main incoming supply phase missing in half of the house,General electrical maintenance,synthetic_starter
+Switchboard::16,Switch sparks faintly every time pressed in dining room Please send a qualified technician.,Switchboard,synthetic_starter
+Lighting::2,Mount dining room chandelier and connect dimmer wiring,Lighting,synthetic_starter
+General electrical maintenance::15,Testing wall sockets polarity and earthing continuity,General electrical maintenance,synthetic_starter
+Electrical appliance connection::6,Kitchen chimney plug point installation behind upper cabinet,Electrical appliance connection,synthetic_starter
+Wiring::7,Urgent help needed: rats chewed electrical wire behind wardrobe needs rewiring Happened after power fluctuation.,Wiring,synthetic_starter
+Wiring::15,"At our Delhi residence, kitchen underground cable fault tripping power supply Please send a qualified technician.",Wiring,synthetic_starter
+Lighting::3,"At our Delhi residence, balcony waterproof outdoor wall light not turning on",Lighting,synthetic_starter
+Fan installation/repair::1,"At our Delhi residence, Install two new ceiling fans in master and kids bedroom Please send a qualified technician.",Fan installation/repair,synthetic_starter
+Switchboard::13,Urgent help needed: indicator neon light dead and switch stuck on board,Switchboard,synthetic_starter
+General electrical maintenance::1,Frequent voltage fluctuation across entire apartment,General electrical maintenance,synthetic_starter
+Switchboard::1,Two plug sockets melted on living room switchboard,Switchboard,synthetic_starter
+Fan installation/repair::5,mount a new wall fan in balcony and connect wire Please send a qualified technician.,Fan installation/repair,synthetic_starter
+Wiring::8,Earthing wire disconnected causing tingling on metal taps,Wiring,synthetic_starter
+Wiring::5,"Since morning, Need new concealed cable laying for study room wall Happened after power fluctuation.",Wiring,synthetic_starter
+Switchboard::4,Switch button broken and loose connection inside board,Switchboard,synthetic_starter
+Fan installation/repair::8,Ceiling fan blades bent and shaking violently on high speed,Fan installation/repair,synthetic_starter
+MCB/circuit breaker::5,ELCB keeps tripping randomly during afternoon hours,MCB/circuit breaker,synthetic_starter
+Wiring::10,Please inspect: need fresh 2.5 sq mm copper wiring run to balcony Please send a qualified technician.,Wiring,synthetic_starter
+Switchboard::10,Kitchen switchboard one 6A switch not working,Switchboard,synthetic_starter
+Inverter::8,Urgent help needed: Inverter fan making loud rattling sound inside unit,Inverter,synthetic_starter
+Inverter::5,"At our Delhi residence, Battery terminal corroded and inverter wire heating up Need repair today.",Inverter,synthetic_starter
+MCB/circuit breaker::4,Please inspect: need new 32A double pole MCB installed in DB box in the apartment.,MCB/circuit breaker,synthetic_starter
+General electrical maintenance::13,Urgent help needed: post-renovation full electrical testing and load balancing,General electrical maintenance,synthetic_starter
+General electrical maintenance::0,Complete home electrical safety audit for rented flat,General electrical maintenance,synthetic_starter
+Lighting::16,Bulb holder short circuited and tripped room light,Lighting,synthetic_starter
+MCB/circuit breaker::15,Main distribution board humming loudly before breaker trips,MCB/circuit breaker,synthetic_starter
+Wiring::1,"Since morning, Need internal rewiring for old copper cables in bedroom Please send a qualified technician.",Wiring,synthetic_starter
+Wiring::15,Kitchen underground cable fault tripping power supply,Wiring,synthetic_starter
+Fan installation/repair::12,"In our flat, ceiling fan speed does not change even on level five Happened after power fluctuation.",Fan installation/repair,synthetic_starter
+General electrical maintenance::8,"Since morning, whole flat neutral voltage showing 30V on tester check",General electrical maintenance,synthetic_starter
+Electrical appliance connection::16,Please inspect: tV unit concealed HDMI and multi-plug power socket setup Need repair today.,Electrical appliance connection,synthetic_starter
+Inverter::0,Please inspect: Inverter not charging battery during normal mains power,Inverter,synthetic_starter
+Wiring::5,need new concealed cable laying for study room wall Please send a qualified technician.,Wiring,synthetic_starter
+General electrical maintenance::7,Urgent help needed: install digital voltage and ampere meter on main board Happened after power fluctuation.,General electrical maintenance,synthetic_starter
+Fan installation/repair::7,Pedestal fan wiring cut and motor not starting in the apartment.,Fan installation/repair,synthetic_starter
+Electrical appliance connection::12,"In our flat, submersible water pump starter panel wiring connection Happened after power fluctuation.",Electrical appliance connection,synthetic_starter
+Wiring::1,Need internal rewiring for old copper cables in bedroom,Wiring,synthetic_starter
+Wiring::6,Neutral wire loose causing voltage fluctuation in two rooms,Wiring,synthetic_starter
+Fan installation/repair::9,Urgent help needed: Need replacement of burnt ceiling fan condenser and check Happened after power fluctuation.,Fan installation/repair,synthetic_starter
+Switchboard::2,Fan regulator knob stuck and smoking inside switch plate,Switchboard,synthetic_starter
+Lighting::15,Urgent help needed: Drawing room decorative wall sconce fitting required Please send a qualified technician.,Lighting,synthetic_starter
+Fan installation/repair::3,Kitchen exhaust fan stopped spinning completely,Fan installation/repair,synthetic_starter
+Switchboard::3,Need new 6-module switchboard installed near study desk,Switchboard,synthetic_starter
+Fan installation/repair::0,Urgent help needed: Ceiling fan running very slowly needs capacitor replacement,Fan installation/repair,synthetic_starter
+Inverter::1,Urgent help needed: need fresh inverter and tubular battery wiring for 3BHK Need repair today.,Inverter,synthetic_starter
+Lighting::13,"At our Delhi residence, Kitchen under-cabinet LED strip power adapter failed in the apartment.",Lighting,synthetic_starter
+Wiring::9,Please inspect: Living room main phase wire burnt near junction box Please send a qualified technician.,Wiring,synthetic_starter
+Electrical appliance connection::15,Treadmill 16A dedicated line wiring in home gym corner,Electrical appliance connection,synthetic_starter
+Electrical appliance connection::7,Urgent help needed: dishwasher power connection and proper earthing check needed Happened after power fluctuation.,Electrical appliance connection,synthetic_starter
+Inverter::13,Urgent help needed: smell near inverter battery leads during backup discharge,Inverter,synthetic_starter
+Wiring::8,"Since morning, Earthing wire disconnected causing tingling on metal taps",Wiring,synthetic_starter
+Wiring::2,"Since morning, short circuit occurred in hallway wiring and line is dead Happened after power fluctuation.",Wiring,synthetic_starter
+Fan installation/repair::11,Uninstall old ceiling fan and fit new BLDC remote fan,Fan installation/repair,synthetic_starter
+General electrical maintenance::5,Minor sparks and loose connections check across all rooms,General electrical maintenance,synthetic_starter
+Fan installation/repair::0,Ceiling fan running very slowly needs capacitor replacement,Fan installation/repair,synthetic_starter
+Switchboard::15,Please inspect: Loose backbox of wall switchboard hanging out of wall in the apartment.,Switchboard,synthetic_starter
+Lighting::16,Please inspect: bulb holder short circuited and tripped room light Need repair today.,Lighting,synthetic_starter
+General electrical maintenance::8,"Since morning, Whole flat neutral voltage showing 30V on tester check Please send a qualified technician.",General electrical maintenance,synthetic_starter
+Fan installation/repair::3,"At our Delhi residence, kitchen exhaust fan stopped spinning completely",Fan installation/repair,synthetic_starter
+Fan installation/repair::2,Living room ceiling fan making loud humming noise and wobbling,Fan installation/repair,synthetic_starter
+Lighting::1,Install three false ceiling LED panel lights in hall,Lighting,synthetic_starter
+MCB/circuit breaker::15,"At our Delhi residence, main distribution board humming loudly before breaker trips Please send a qualified technician.",MCB/circuit breaker,synthetic_starter
+Inverter::16,"At our Delhi residence, Check distilled water terminals and DC fuse on inverter Please send a qualified technician.",Inverter,synthetic_starter
+General electrical maintenance::14,"Since morning, main incoming supply phase missing in half of the house in the apartment.",General electrical maintenance,synthetic_starter
+Electrical appliance connection::7,Urgent help needed: Dishwasher power connection and proper earthing check needed Happened after power fluctuation.,Electrical appliance connection,synthetic_starter
+Lighting::10,"Since morning, Garden gate pillar lights stopped glowing after rain Need repair today.",Lighting,synthetic_starter
+General electrical maintenance::10,Please inspect: doorbell chime buzzing continuously without anyone pressing Please send a qualified technician.,General electrical maintenance,synthetic_starter
+Inverter::15,"In our flat, Pure sine wave inverter tripping on single ceiling fan load Need repair today.",Inverter,synthetic_starter
+Inverter::7,Connect dining room fan and two lights to inverter backup line,Inverter,synthetic_starter
+Fan installation/repair::15,"At our Delhi residence, Ceiling fan rotating backwards or sluggishly after repair",Fan installation/repair,synthetic_starter
+Electrical appliance connection::9,Install 25A metal clad socket for 2-ton split air conditioner,Electrical appliance connection,synthetic_starter
+Fan installation/repair::0,"In our flat, ceiling fan running very slowly needs capacitor replacement Please send a qualified technician.",Fan installation/repair,synthetic_starter
+MCB/circuit breaker::10,Urgent help needed: Phase load unbalanced causing main breaker frequent tripping Happened after power fluctuation.,MCB/circuit breaker,synthetic_starter
+Lighting::12,LED downlight driver buzzing and blinking rapidly,Lighting,synthetic_starter
+Electrical appliance connection::11,OTGs and mixer heavy socket burning out in kitchen,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::2,Distribution box MCB burnt and refuses to stay up,MCB/circuit breaker,synthetic_starter
+Switchboard::9,Urgent help needed: Bathroom switchboard got damp and switch is jammed,Switchboard,synthetic_starter
+Electrical appliance connection::5,"At our Delhi residence, Induction cooktop tripping socket needs heavy duty 20A point Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+Inverter::2,Urgent help needed: Home inverter beeping continuously with overload red light Please send a qualified technician.,Inverter,synthetic_starter
+Switchboard::6,"At our Delhi residence, Switchboard making crackling sound whenever plug inserted Need repair today.",Switchboard,synthetic_starter
+Lighting::15,"At our Delhi residence, drawing room decorative wall sconce fitting required Please send a qualified technician.",Lighting,synthetic_starter
+General electrical maintenance::7,Urgent help needed: Install digital voltage and ampere meter on main board in the apartment.,General electrical maintenance,synthetic_starter
+Fan installation/repair::3,"Since morning, Kitchen exhaust fan stopped spinning completely Need repair today.",Fan installation/repair,synthetic_starter
+MCB/circuit breaker::12,"In our flat, kitchen 16A MCB trips as soon as microwave turns on Happened after power fluctuation.",MCB/circuit breaker,synthetic_starter
+General electrical maintenance::11,inspect flickering lights across hall and bedrooms together Need repair today.,General electrical maintenance,synthetic_starter
+Electrical appliance connection::12,Submersible water pump starter panel wiring connection,Electrical appliance connection,synthetic_starter
+General electrical maintenance::4,Check high electricity bill and inspect faulty meter load,General electrical maintenance,synthetic_starter
+General electrical maintenance::1,"Since morning, Frequent voltage fluctuation across entire apartment",General electrical maintenance,synthetic_starter
+General electrical maintenance::10,Doorbell chime buzzing continuously without anyone pressing,General electrical maintenance,synthetic_starter
+Lighting::4,Please inspect: tube light driver burnt and fixture needs replacement in the apartment.,Lighting,synthetic_starter
+Electrical appliance connection::2,Microwave oven 16A socket sparking in modular kitchen Please send a qualified technician.,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::0,Please inspect: Main MCB trips repeatedly every ten minutes under load Happened after power fluctuation.,MCB/circuit breaker,synthetic_starter
+Wiring::12,Old aluminium wiring sparking near wooden ceiling,Wiring,synthetic_starter
+Fan installation/repair::10,Please inspect: bathroom exhaust fan jammed and emitting slight smell Please send a qualified technician.,Fan installation/repair,synthetic_starter
+Inverter::15,"At our Delhi residence, pure sine wave inverter tripping on single ceiling fan load Please send a qualified technician.",Inverter,synthetic_starter
+Lighting::6,"In our flat, staircase corridor light switch works intermittently Need repair today.",Lighting,synthetic_starter
+General electrical maintenance::8,Whole flat neutral voltage showing 30V on tester check,General electrical maintenance,synthetic_starter
+Inverter::6,"In our flat, inverter fuse blown after thunderstorm power fluctuation Need repair today.",Inverter,synthetic_starter
+Switchboard::1,"In our flat, Two plug sockets melted on living room switchboard Need repair today.",Switchboard,synthetic_starter
+Fan installation/repair::1,Install two new ceiling fans in master and kids bedroom,Fan installation/repair,synthetic_starter
+Lighting::10,Garden gate pillar lights stopped glowing after rain,Lighting,synthetic_starter
+Lighting::14,Porch motion sensor floodlight not triggering at night,Lighting,synthetic_starter
+Wiring::2,Short circuit occurred in hallway wiring and line is dead,Wiring,synthetic_starter
+Inverter::14,Rewire inverter phase distribution across hall and bedrooms,Inverter,synthetic_starter
+Inverter::9,"At our Delhi residence, disconnect geyser and AC sockets from inverter output wiring in the apartment.",Inverter,synthetic_starter
+Fan installation/repair::16,"At our Delhi residence, Wall mounted fan oscillation stuck and power cord damaged Need repair today.",Fan installation/repair,synthetic_starter
+Fan installation/repair::14,Install heavy duty exhaust fan in utility kitchen window,Fan installation/repair,synthetic_starter
+Lighting::5,Install mirror vanity light and LED strip in bathroom,Lighting,synthetic_starter
+Wiring::3,"At our Delhi residence, exposed wire hanging outside balcony wall needs insulation",Wiring,synthetic_starter
+MCB/circuit breaker::3,Please inspect: Sub-meter circuit breaker smoking near main entrance in the apartment.,MCB/circuit breaker,synthetic_starter
+Switchboard::16,Please inspect: switch sparks faintly every time pressed in dining room Need repair today.,Switchboard,synthetic_starter
+Switchboard::9,Bathroom switchboard got damp and switch is jammed,Switchboard,synthetic_starter
+MCB/circuit breaker::9,Urgent help needed: Main circuit breaker sparking inside metal DB enclosure Please send a qualified technician.,MCB/circuit breaker,synthetic_starter
+Inverter::0,"In our flat, inverter not charging battery during normal mains power Please send a qualified technician.",Inverter,synthetic_starter
+Lighting::1,"In our flat, Install three false ceiling LED panel lights in hall Need repair today.",Lighting,synthetic_starter
+General electrical maintenance::9,"At our Delhi residence, annual electrical maintenance checkup of DB and sockets in the apartment.",General electrical maintenance,synthetic_starter
+MCB/circuit breaker::10,Please inspect: phase load unbalanced causing main breaker frequent tripping Please send a qualified technician.,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::13,Broken toggle lever on 10A lighting MCB in DB board,MCB/circuit breaker,synthetic_starter
+Lighting::11,install pendant hanging lamps above dining table Need repair today.,Lighting,synthetic_starter
+Lighting::10,Please inspect: garden gate pillar lights stopped glowing after rain Please send a qualified technician.,Lighting,synthetic_starter
+Switchboard::11,"At our Delhi residence, Need 16A combined switch and socket installed on board Need repair today.",Switchboard,synthetic_starter
+General electrical maintenance::11,Urgent help needed: Inspect flickering lights across hall and bedrooms together Please send a qualified technician.,General electrical maintenance,synthetic_starter
+Lighting::0,"In our flat, lED tube light flickering continuously in study room Please send a qualified technician.",Lighting,synthetic_starter
+Inverter::10,Urgent help needed: Inverter showing low battery despite full day electricity Happened after power fluctuation.,Inverter,synthetic_starter
+Fan installation/repair::13,Fan downrod loose and vibrating dangerously on ceiling hook,Fan installation/repair,synthetic_starter
+Wiring::0,Concealed wall wiring is giving mild shock near bathroom Need repair today.,Wiring,synthetic_starter
+Switchboard::12,Please inspect: Burnt smell coming from bedside switchboard panel Need repair today.,Switchboard,synthetic_starter
+Switchboard::5,Power socket burnt while using iron on bedroom board,Switchboard,synthetic_starter
+MCB/circuit breaker::7,Upgrade old fuse cutout box to modern MCB distribution box,MCB/circuit breaker,synthetic_starter
+Fan installation/repair::5,Mount a new wall fan in balcony and connect wire,Fan installation/repair,synthetic_starter
+General electrical maintenance::3,"In our flat, Earth leakage test needed before moving into new house Please send a qualified technician.",General electrical maintenance,synthetic_starter
+Switchboard::14,Replace old bakelite switchboard with modern modular board,Switchboard,synthetic_starter
+Fan installation/repair::11,Please inspect: Uninstall old ceiling fan and fit new BLDC remote fan in the apartment.,Fan installation/repair,synthetic_starter
+General electrical maintenance::2,Install wireless or wired electric doorbell at main door,General electrical maintenance,synthetic_starter
+Electrical appliance connection::12,Submersible water pump starter panel wiring connection Please send a qualified technician.,Electrical appliance connection,synthetic_starter
+Switchboard::14,"Since morning, replace old bakelite switchboard with modern modular board in the apartment.",Switchboard,synthetic_starter
+MCB/circuit breaker::16,"At our Delhi residence, Install separate dedicated MCB for bathroom geyser line",MCB/circuit breaker,synthetic_starter
+Switchboard::4,Switch button broken and loose connection inside board Happened after power fluctuation.,Switchboard,synthetic_starter
+Wiring::7,"At our Delhi residence, Rats chewed electrical wire behind wardrobe needs rewiring Need repair today.",Wiring,synthetic_starter
+Wiring::12,"In our flat, old aluminium wiring sparking near wooden ceiling Happened after power fluctuation.",Wiring,synthetic_starter
+Fan installation/repair::12,Ceiling fan speed does not change even on level five,Fan installation/repair,synthetic_starter
+Fan installation/repair::4,Please inspect: Ceiling fan suddenly stopped working after voltage spike Please send a qualified technician.,Fan installation/repair,synthetic_starter
+MCB/circuit breaker::7,"Since morning, Upgrade old fuse cutout box to modern MCB distribution box Need repair today.",MCB/circuit breaker,synthetic_starter
+Lighting::13,Urgent help needed: kitchen under-cabinet LED strip power adapter failed,Lighting,synthetic_starter
+Lighting::6,Urgent help needed: Staircase corridor light switch works intermittently Need repair today.,Lighting,synthetic_starter
+Switchboard::4,Please inspect: switch button broken and loose connection inside board in the apartment.,Switchboard,synthetic_starter
+MCB/circuit breaker::1,Urgent help needed: rCCB breaker tripping whenever water motor starts Need repair today.,MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::15,"At our Delhi residence, Treadmill 16A dedicated line wiring in home gym corner Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+Inverter::11,Urgent help needed: Install double battery 24V inverter setup in utility area Need repair today.,Inverter,synthetic_starter
+Electrical appliance connection::9,Urgent help needed: Install 25A metal clad socket for 2-ton split air conditioner Need repair today.,Electrical appliance connection,synthetic_starter
+Electrical appliance connection::17,"In our flat, Air cooler pump plug shorting out socket on terrace Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+General electrical maintenance::11,Inspect flickering lights across hall and bedrooms together,General electrical maintenance,synthetic_starter
+MCB/circuit breaker::6,AC room MCB heats up and trips after five minutes,MCB/circuit breaker,synthetic_starter
+Fan installation/repair::5,Mount a new wall fan in balcony and connect wire Happened after power fluctuation.,Fan installation/repair,synthetic_starter
+Fan installation/repair::12,"In our flat, Ceiling fan speed does not change even on level five Need repair today.",Fan installation/repair,synthetic_starter
+Electrical appliance connection::2,"Since morning, microwave oven 16A socket sparking in modular kitchen Happened after power fluctuation.",Electrical appliance connection,synthetic_starter
+Electrical appliance connection::0,Install dedicated 16A AC power point with starter switch,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::2,"Since morning, distribution box MCB burnt and refuses to stay up Happened after power fluctuation.",MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::4,Need new 32A double pole MCB installed in DB box,MCB/circuit breaker,synthetic_starter
+Switchboard::10,"Since morning, Kitchen switchboard one 6A switch not working",Switchboard,synthetic_starter
+Electrical appliance connection::13,Urgent help needed: room heater 16A plug top and wall socket fused together,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::1,RCCB breaker tripping whenever water motor starts,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::9,"At our Delhi residence, main circuit breaker sparking inside metal DB enclosure in the apartment.",MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::13,Room heater 16A plug top and wall socket fused together Need repair today.,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::11,Install surge protection device and MCB in main panel,MCB/circuit breaker,synthetic_starter
+Inverter::10,Please inspect: inverter showing low battery despite full day electricity Please send a qualified technician.,Inverter,synthetic_starter
+Electrical appliance connection::1,Bathroom storage geyser power socket melted needs 16A plug,Electrical appliance connection,synthetic_starter
+Lighting::7,False ceiling cove strip light half section dead,Lighting,synthetic_starter
+Inverter::3,Backup power fails immediately during power cut in the apartment.,Inverter,synthetic_starter
+Inverter::12,"In our flat, inverter output socket dead while mains bypass still works Happened after power fluctuation.",Inverter,synthetic_starter
+Electrical appliance connection::5,induction cooktop tripping socket needs heavy duty 20A point Please send a qualified technician.,Electrical appliance connection,synthetic_starter
+General electrical maintenance::3,Earth leakage test needed before moving into new house,General electrical maintenance,synthetic_starter
+Fan installation/repair::7,Pedestal fan wiring cut and motor not starting,Fan installation/repair,synthetic_starter
+Wiring::12,"At our Delhi residence, Old aluminium wiring sparking near wooden ceiling Need repair today.",Wiring,synthetic_starter
+Wiring::3,Exposed wire hanging outside balcony wall needs insulation Need repair today.,Wiring,synthetic_starter
+General electrical maintenance::10,Doorbell chime buzzing continuously without anyone pressing Happened after power fluctuation.,General electrical maintenance,synthetic_starter
+Lighting::7,"Since morning, False ceiling cove strip light half section dead Please send a qualified technician.",Lighting,synthetic_starter
+Inverter::8,Inverter fan making loud rattling sound inside unit,Inverter,synthetic_starter
+General electrical maintenance::9,"In our flat, Annual electrical maintenance checkup of DB and sockets",General electrical maintenance,synthetic_starter
+Fan installation/repair::1,Urgent help needed: install two new ceiling fans in master and kids bedroom Need repair today.,Fan installation/repair,synthetic_starter
+Lighting::5,"In our flat, Install mirror vanity light and LED strip in bathroom",Lighting,synthetic_starter
+MCB/circuit breaker::16,Please inspect: install separate dedicated MCB for bathroom geyser line Need repair today.,MCB/circuit breaker,synthetic_starter
+Inverter::14,"In our flat, Rewire inverter phase distribution across hall and bedrooms Need repair today.",Inverter,synthetic_starter
+General electrical maintenance::9,Annual electrical maintenance checkup of DB and sockets,General electrical maintenance,synthetic_starter
+Inverter::4,Please inspect: inverter changeover delay causes WiFi and PC to restart in the apartment.,Inverter,synthetic_starter
+General electrical maintenance::12,Urgent help needed: Check appliance earthing across kitchen and bathroom points Need repair today.,General electrical maintenance,synthetic_starter
+Inverter::13,"At our Delhi residence, Smell near inverter battery leads during backup discharge Happened after power fluctuation.",Inverter,synthetic_starter
+MCB/circuit breaker::5,Urgent help needed: ELCB keeps tripping randomly during afternoon hours Need repair today.,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::17,circuit breaker tripping instantly with loud pop noise Happened after power fluctuation.,MCB/circuit breaker,synthetic_starter
+Lighting::0,Urgent help needed: LED tube light flickering continuously in study room Need repair today.,Lighting,synthetic_starter
+Fan installation/repair::9,"At our Delhi residence, need replacement of burnt ceiling fan condenser and check in the apartment.",Fan installation/repair,synthetic_starter
+Lighting::11,"Since morning, Install pendant hanging lamps above dining table Please send a qualified technician.",Lighting,synthetic_starter
+MCB/circuit breaker::14,Changeover breaker inside distribution panel loose,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::5,eLCB keeps tripping randomly during afternoon hours Please send a qualified technician.,MCB/circuit breaker,synthetic_starter
+Fan installation/repair::2,"Since morning, living room ceiling fan making loud humming noise and wobbling Happened after power fluctuation.",Fan installation/repair,synthetic_starter
+Fan installation/repair::4,Ceiling fan suddenly stopped working after voltage spike,Fan installation/repair,synthetic_starter
+MCB/circuit breaker::2,"At our Delhi residence, Distribution box MCB burnt and refuses to stay up",MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::8,"Since morning, refrigerator plug socket loose and refrigerator restarting",Electrical appliance connection,synthetic_starter
+Inverter::6,"Since morning, Inverter fuse blown after thunderstorm power fluctuation in the apartment.",Inverter,synthetic_starter
+Fan installation/repair::6,"In our flat, ceiling fan bearing making grinding metallic sound Need repair today.",Fan installation/repair,synthetic_starter
+Electrical appliance connection::11,oTGs and mixer heavy socket burning out in kitchen Need repair today.,Electrical appliance connection,synthetic_starter
+Switchboard::17,"At our Delhi residence, Regulator step dimmer not controlling speed on switchboard",Switchboard,synthetic_starter
+Inverter::17,Need manual bypass switch installed next to inverter unit,Inverter,synthetic_starter
+Fan installation/repair::8,"Since morning, ceiling fan blades bent and shaking violently on high speed",Fan installation/repair,synthetic_starter
+General electrical maintenance::0,"In our flat, Complete home electrical safety audit for rented flat in the apartment.",General electrical maintenance,synthetic_starter
+Wiring::14,"Since morning, Need earthing pit check and new green earth wire connection Please send a qualified technician.",Wiring,synthetic_starter
+General electrical maintenance::6,Please inspect: Pre-monsoon electrical inspection for terrace and balcony Please send a qualified technician.,General electrical maintenance,synthetic_starter
+Switchboard::3,"At our Delhi residence, Need new 6-module switchboard installed near study desk in the apartment.",Switchboard,synthetic_starter
+Switchboard::10,Please inspect: kitchen switchboard one 6A switch not working Please send a qualified technician.,Switchboard,synthetic_starter
+MCB/circuit breaker::8,Please inspect: Single phase isolator switch jammed inside main panel Need repair today.,MCB/circuit breaker,synthetic_starter
+Lighting::8,Replace four old fluorescent tube fittings with LED battens,Lighting,synthetic_starter
+Fan installation/repair::17,Check ceiling fan motor coil and replace faulty regulator,Fan installation/repair,synthetic_starter
+Wiring::4,Wire burnt inside wall conduit in kitchen area,Wiring,synthetic_starter
+Wiring::11,"In our flat, Bedroom wall socket has no phase continuity in internal cable Happened after power fluctuation.",Wiring,synthetic_starter
+Wiring::9,"At our Delhi residence, living room main phase wire burnt near junction box in the apartment.",Wiring,synthetic_starter
+Lighting::2,"Since morning, Mount dining room chandelier and connect dimmer wiring Please send a qualified technician.",Lighting,synthetic_starter
+Fan installation/repair::11,uninstall old ceiling fan and fit new BLDC remote fan Need repair today.,Fan installation/repair,synthetic_starter
+Electrical appliance connection::17,air cooler pump plug shorting out socket on terrace Happened after power fluctuation.,Electrical appliance connection,synthetic_starter
+General electrical maintenance::17,scheduled electrical safety checkup for senior citizens home Happened after power fluctuation.,General electrical maintenance,synthetic_starter
+MCB/circuit breaker::1,RCCB breaker tripping whenever water motor starts in the apartment.,MCB/circuit breaker,synthetic_starter
+Switchboard::13,Urgent help needed: Indicator neon light dead and switch stuck on board Happened after power fluctuation.,Switchboard,synthetic_starter
+Wiring::17,Split cable joint inside roof conduit overheating,Wiring,synthetic_starter
+MCB/circuit breaker::8,Single phase isolator switch jammed inside main panel,MCB/circuit breaker,synthetic_starter
+Inverter::17,"At our Delhi residence, Need manual bypass switch installed next to inverter unit in the apartment.",Inverter,synthetic_starter
+Electrical appliance connection::1,Urgent help needed: Bathroom storage geyser power socket melted needs 16A plug Happened after power fluctuation.,Electrical appliance connection,synthetic_starter
+Lighting::5,install mirror vanity light and LED strip in bathroom Please send a qualified technician.,Lighting,synthetic_starter
+Wiring::13,Urgent help needed: Loose phase wire inside junction box flickering power Happened after power fluctuation.,Wiring,synthetic_starter
+Electrical appliance connection::4,Washing machine balcony point needs waterproof 16A socket,Electrical appliance connection,synthetic_starter
+Lighting::14,"Since morning, Porch motion sensor floodlight not triggering at night",Lighting,synthetic_starter
+Inverter::4,Inverter changeover delay causes WiFi and PC to restart,Inverter,synthetic_starter
+MCB/circuit breaker::12,Urgent help needed: Kitchen 16A MCB trips as soon as microwave turns on,MCB/circuit breaker,synthetic_starter
+General electrical maintenance::13,Post-renovation full electrical testing and load balancing,General electrical maintenance,synthetic_starter
+Wiring::1,Urgent help needed: need internal rewiring for old copper cables in bedroom Need repair today.,Wiring,synthetic_starter
+MCB/circuit breaker::13,Urgent help needed: broken toggle lever on 10A lighting MCB in DB board,MCB/circuit breaker,synthetic_starter
+General electrical maintenance::3,"At our Delhi residence, earth leakage test needed before moving into new house",General electrical maintenance,synthetic_starter
+Switchboard::15,"At our Delhi residence, loose backbox of wall switchboard hanging out of wall Please send a qualified technician.",Switchboard,synthetic_starter
+MCB/circuit breaker::3,"At our Delhi residence, sub-meter circuit breaker smoking near main entrance",MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::15,"At our Delhi residence, treadmill 16A dedicated line wiring in home gym corner Please send a qualified technician.",Electrical appliance connection,synthetic_starter
+Lighting::17,Replace recessed spotlight drivers in POP false ceiling,Lighting,synthetic_starter
+Lighting::3,Balcony waterproof outdoor wall light not turning on,Lighting,synthetic_starter
+Switchboard::14,Urgent help needed: Replace old bakelite switchboard with modern modular board in the apartment.,Switchboard,synthetic_starter
+Inverter::7,Urgent help needed: connect dining room fan and two lights to inverter backup line Happened after power fluctuation.,Inverter,synthetic_starter
+Lighting::17,"In our flat, Replace recessed spotlight drivers in POP false ceiling Please send a qualified technician.",Lighting,synthetic_starter
+Switchboard::2,"Since morning, fan regulator knob stuck and smoking inside switch plate Happened after power fluctuation.",Switchboard,synthetic_starter
+Wiring::15,Urgent help needed: Kitchen underground cable fault tripping power supply in the apartment.,Wiring,synthetic_starter
+Wiring::10,"Since morning, Need fresh 2.5 sq mm copper wiring run to balcony in the apartment.",Wiring,synthetic_starter
+MCB/circuit breaker::17,Circuit breaker tripping instantly with loud pop noise,MCB/circuit breaker,synthetic_starter
+Lighting::12,LED downlight driver buzzing and blinking rapidly Please send a qualified technician.,Lighting,synthetic_starter
+General electrical maintenance::2,"At our Delhi residence, Install wireless or wired electric doorbell at main door",General electrical maintenance,synthetic_starter
+Wiring::9,Living room main phase wire burnt near junction box,Wiring,synthetic_starter
+Electrical appliance connection::4,"At our Delhi residence, Washing machine balcony point needs waterproof 16A socket in the apartment.",Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::4,Please inspect: Need new 32A double pole MCB installed in DB box in the apartment.,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::14,"At our Delhi residence, Changeover breaker inside distribution panel loose Need repair today.",MCB/circuit breaker,synthetic_starter
+Inverter::6,Inverter fuse blown after thunderstorm power fluctuation,Inverter,synthetic_starter
+Lighting::0,LED tube light flickering continuously in study room,Lighting,synthetic_starter
+Electrical appliance connection::14,"Since morning, Install smart WiFi plug module for geyser line",Electrical appliance connection,synthetic_starter
+Fan installation/repair::10,Bathroom exhaust fan jammed and emitting slight smell,Fan installation/repair,synthetic_starter
+Switchboard::2,Fan regulator knob stuck and smoking inside switch plate Need repair today.,Switchboard,synthetic_starter
+Fan installation/repair::9,Need replacement of burnt ceiling fan condenser and check,Fan installation/repair,synthetic_starter
+Fan installation/repair::6,"Since morning, Ceiling fan bearing making grinding metallic sound Need repair today.",Fan installation/repair,synthetic_starter
+Wiring::2,Urgent help needed: Short circuit occurred in hallway wiring and line is dead Happened after power fluctuation.,Wiring,synthetic_starter
+Electrical appliance connection::0,Install dedicated 16A AC power point with starter switch,Electrical appliance connection,synthetic_starter
+Switchboard::3,"At our Delhi residence, need new 6-module switchboard installed near study desk",Switchboard,synthetic_starter
+Inverter::10,Inverter showing low battery despite full day electricity,Inverter,synthetic_starter
+Wiring::4,"In our flat, Wire burnt inside wall conduit in kitchen area",Wiring,synthetic_starter
+Fan installation/repair::16,Wall mounted fan oscillation stuck and power cord damaged,Fan installation/repair,synthetic_starter
+Wiring::13,Urgent help needed: loose phase wire inside junction box flickering power,Wiring,synthetic_starter
+General electrical maintenance::6,"In our flat, pre-monsoon electrical inspection for terrace and balcony Need repair today.",General electrical maintenance,synthetic_starter
+Electrical appliance connection::10,Water purifier RO power socket installation near sink,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::0,Main MCB trips repeatedly every ten minutes under load,MCB/circuit breaker,synthetic_starter
+Inverter::3,Backup power fails immediately during power cut,Inverter,synthetic_starter
+Electrical appliance connection::17,Air cooler pump plug shorting out socket on terrace,Electrical appliance connection,synthetic_starter
+Electrical appliance connection::4,Please inspect: washing machine balcony point needs waterproof 16A socket in the apartment.,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::6,AC room MCB heats up and trips after five minutes Please send a qualified technician.,MCB/circuit breaker,synthetic_starter
+Lighting::15,Drawing room decorative wall sconce fitting required,Lighting,synthetic_starter
+Lighting::16,Please inspect: Bulb holder short circuited and tripped room light in the apartment.,Lighting,synthetic_starter
+Inverter::8,"Since morning, inverter fan making loud rattling sound inside unit",Inverter,synthetic_starter
+General electrical maintenance::5,"In our flat, Minor sparks and loose connections check across all rooms Happened after power fluctuation.",General electrical maintenance,synthetic_starter
+MCB/circuit breaker::11,"In our flat, Install surge protection device and MCB in main panel",MCB/circuit breaker,synthetic_starter
+General electrical maintenance::14,"In our flat, Main incoming supply phase missing in half of the house Please send a qualified technician.",General electrical maintenance,synthetic_starter
+General electrical maintenance::6,Pre-monsoon electrical inspection for terrace and balcony,General electrical maintenance,synthetic_starter
+Inverter::11,Install double battery 24V inverter setup in utility area,Inverter,synthetic_starter
+Electrical appliance connection::8,Refrigerator plug socket loose and refrigerator restarting Need repair today.,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::17,Please inspect: Circuit breaker tripping instantly with loud pop noise Please send a qualified technician.,MCB/circuit breaker,synthetic_starter
+Lighting::13,Kitchen under-cabinet LED strip power adapter failed,Lighting,synthetic_starter
+Fan installation/repair::17,"At our Delhi residence, Check ceiling fan motor coil and replace faulty regulator Need repair today.",Fan installation/repair,synthetic_starter
+Wiring::14,"Since morning, need earthing pit check and new green earth wire connection in the apartment.",Wiring,synthetic_starter
+MCB/circuit breaker::0,"In our flat, main MCB trips repeatedly every ten minutes under load Please send a qualified technician.",MCB/circuit breaker,synthetic_starter
+Lighting::9,"At our Delhi residence, bedroom night lamp fixture holder melted near bulb in the apartment.",Lighting,synthetic_starter
+Inverter::13,Smell near inverter battery leads during backup discharge,Inverter,synthetic_starter
+MCB/circuit breaker::14,"Since morning, changeover breaker inside distribution panel loose in the apartment.",MCB/circuit breaker,synthetic_starter
+Switchboard::17,Regulator step dimmer not controlling speed on switchboard,Switchboard,synthetic_starter
+Wiring::17,Please inspect: Split cable joint inside roof conduit overheating,Wiring,synthetic_starter
+Wiring::0,"In our flat, concealed wall wiring is giving mild shock near bathroom Please send a qualified technician.",Wiring,synthetic_starter
+General electrical maintenance::13,Post-renovation full electrical testing and load balancing,General electrical maintenance,synthetic_starter
+Wiring::16,Please inspect: exposed live wire sticking out of plaster after drilling Need repair today.,Wiring,synthetic_starter
+Switchboard::8,Urgent help needed: Socket pins loose plug keeps falling out of wall board Please send a qualified technician.,Switchboard,synthetic_starter
+Lighting::14,"Since morning, porch motion sensor floodlight not triggering at night in the apartment.",Lighting,synthetic_starter
+Wiring::11,bedroom wall socket has no phase continuity in internal cable Need repair today.,Wiring,synthetic_starter
+MCB/circuit breaker::15,"At our Delhi residence, Main distribution board humming loudly before breaker trips Please send a qualified technician.",MCB/circuit breaker,synthetic_starter
+Electrical appliance connection::14,Install smart WiFi plug module for geyser line,Electrical appliance connection,synthetic_starter
+Switchboard::12,"In our flat, burnt smell coming from bedside switchboard panel Happened after power fluctuation.",Switchboard,synthetic_starter
+Electrical appliance connection::5,Induction cooktop tripping socket needs heavy duty 20A point,Electrical appliance connection,synthetic_starter
+Wiring::17,split cable joint inside roof conduit overheating Happened after power fluctuation.,Wiring,synthetic_starter
+Electrical appliance connection::7,Dishwasher power connection and proper earthing check needed,Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::16,Install separate dedicated MCB for bathroom geyser line,MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::8,"Since morning, single phase isolator switch jammed inside main panel",MCB/circuit breaker,synthetic_starter
+Wiring::4,Please inspect: wire burnt inside wall conduit in kitchen area in the apartment.,Wiring,synthetic_starter
+Inverter::15,Pure sine wave inverter tripping on single ceiling fan load,Inverter,synthetic_starter
+Switchboard::11,need 16A combined switch and socket installed on board Need repair today.,Switchboard,synthetic_starter
+Inverter::1,Need fresh inverter and tubular battery wiring for 3BHK,Inverter,synthetic_starter
+Lighting::1,Urgent help needed: install three false ceiling LED panel lights in hall Need repair today.,Lighting,synthetic_starter
+Electrical appliance connection::1,Urgent help needed: bathroom storage geyser power socket melted needs 16A plug Need repair today.,Electrical appliance connection,synthetic_starter
+General electrical maintenance::15,"At our Delhi residence, Testing wall sockets polarity and earthing continuity Please send a qualified technician.",General electrical maintenance,synthetic_starter
+Fan installation/repair::8,"At our Delhi residence, Ceiling fan blades bent and shaking violently on high speed Happened after power fluctuation.",Fan installation/repair,synthetic_starter
+Inverter::12,Inverter output socket dead while mains bypass still works,Inverter,synthetic_starter
+General electrical maintenance::12,"In our flat, check appliance earthing across kitchen and bathroom points Happened after power fluctuation.",General electrical maintenance,synthetic_starter
+Inverter::16,Please inspect: check distilled water terminals and DC fuse on inverter Need repair today.,Inverter,synthetic_starter
+MCB/circuit breaker::9,Main circuit breaker sparking inside metal DB enclosure,MCB/circuit breaker,synthetic_starter
+Switchboard::0,Bedroom modular switchboard sparking when turning on switch,Switchboard,synthetic_starter
+Electrical appliance connection::13,Room heater 16A plug top and wall socket fused together,Electrical appliance connection,synthetic_starter
+Wiring::16,Exposed live wire sticking out of plaster after drilling Please send a qualified technician.,Wiring,synthetic_starter
+Lighting::4,Tube light driver burnt and fixture needs replacement,Lighting,synthetic_starter
+Lighting::9,Bedroom night lamp fixture holder melted near bulb,Lighting,synthetic_starter
+General electrical maintenance::17,Scheduled electrical safety checkup for senior citizens home,General electrical maintenance,synthetic_starter
+Lighting::8,"Since morning, replace four old fluorescent tube fittings with LED battens",Lighting,synthetic_starter
+Lighting::2,"Since morning, mount dining room chandelier and connect dimmer wiring Happened after power fluctuation.",Lighting,synthetic_starter
+Switchboard::1,Urgent help needed: two plug sockets melted on living room switchboard Need repair today.,Switchboard,synthetic_starter
+Wiring::16,Exposed live wire sticking out of plaster after drilling,Wiring,synthetic_starter
+Electrical appliance connection::6,"Since morning, Kitchen chimney plug point installation behind upper cabinet",Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::6,"In our flat, aC room MCB heats up and trips after five minutes Need repair today.",MCB/circuit breaker,synthetic_starter
+MCB/circuit breaker::12,Kitchen 16A MCB trips as soon as microwave turns on,MCB/circuit breaker,synthetic_starter
+Wiring::7,Rats chewed electrical wire behind wardrobe needs rewiring,Wiring,synthetic_starter
+Inverter::14,"Since morning, rewire inverter phase distribution across hall and bedrooms in the apartment.",Inverter,synthetic_starter
+Fan installation/repair::17,check ceiling fan motor coil and replace faulty regulator Happened after power fluctuation.,Fan installation/repair,synthetic_starter
+Inverter::2,Home inverter beeping continuously with overload red light,Inverter,synthetic_starter
+Lighting::9,Bedroom night lamp fixture holder melted near bulb Need repair today.,Lighting,synthetic_starter
+General electrical maintenance::2,"Since morning, install wireless or wired electric doorbell at main door Happened after power fluctuation.",General electrical maintenance,synthetic_starter
+Inverter::7,Please inspect: Connect dining room fan and two lights to inverter backup line,Inverter,synthetic_starter
+Electrical appliance connection::6,"In our flat, kitchen chimney plug point installation behind upper cabinet Need repair today.",Electrical appliance connection,synthetic_starter
+MCB/circuit breaker::13,Broken toggle lever on 10A lighting MCB in DB board,MCB/circuit breaker,synthetic_starter
+Inverter::12,Urgent help needed: Inverter output socket dead while mains bypass still works in the apartment.,Inverter,synthetic_starter
+Fan installation/repair::13,"Since morning, Fan downrod loose and vibrating dangerously on ceiling hook",Fan installation/repair,synthetic_starter
+Fan installation/repair::7,Urgent help needed: pedestal fan wiring cut and motor not starting Happened after power fluctuation.,Fan installation/repair,synthetic_starter
+Fan installation/repair::14,"Since morning, install heavy duty exhaust fan in utility kitchen window in the apartment.",Fan installation/repair,synthetic_starter
+Electrical appliance connection::11,"In our flat, OTGs and mixer heavy socket burning out in kitchen Need repair today.",Electrical appliance connection,synthetic_starter
+Switchboard::15,Loose backbox of wall switchboard hanging out of wall,Switchboard,synthetic_starter
+Electrical appliance connection::16,TV unit concealed HDMI and multi-plug power socket setup,Electrical appliance connection,synthetic_starter
+Switchboard::11,Need 16A combined switch and socket installed on board,Switchboard,synthetic_starter
+Electrical appliance connection::2,Microwave oven 16A socket sparking in modular kitchen,Electrical appliance connection,synthetic_starter
+Lighting::17,replace recessed spotlight drivers in POP false ceiling Happened after power fluctuation.,Lighting,synthetic_starter
+Fan installation/repair::4,Please inspect: ceiling fan suddenly stopped working after voltage spike in the apartment.,Fan installation/repair,synthetic_starter
+General electrical maintenance::17,Scheduled electrical safety checkup for senior citizens home Please send a qualified technician.,General electrical maintenance,synthetic_starter
+Wiring::6,"At our Delhi residence, Neutral wire loose causing voltage fluctuation in two rooms Need repair today.",Wiring,synthetic_starter
+Lighting::8,Please inspect: Replace four old fluorescent tube fittings with LED battens Please send a qualified technician.,Lighting,synthetic_starter
+Switchboard::5,Urgent help needed: Power socket burnt while using iron on bedroom board Happened after power fluctuation.,Switchboard,synthetic_starter
+Switchboard::17,regulator step dimmer not controlling speed on switchboard Happened after power fluctuation.,Switchboard,synthetic_starter
+Inverter::0,Inverter not charging battery during normal mains power,Inverter,synthetic_starter
+Electrical appliance connection::8,Refrigerator plug socket loose and refrigerator restarting,Electrical appliance connection,synthetic_starter
+Switchboard::16,Switch sparks faintly every time pressed in dining room,Switchboard,synthetic_starter

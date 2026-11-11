@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/artifacts_ml/*.joblib
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Protect all environment files
+.env*
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Additional local environment files
+.env.local
+.env.production
+.env.development
+*.local
+
