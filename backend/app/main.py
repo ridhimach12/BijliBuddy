@@ -9,7 +9,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app.core.config import get_settings
 from app.db.base import Base
-from app.db.seed import seed_database
+from app.db.seed import ensure_service_categories, seed_database
 from app.db.session import SessionLocal, engine
 from app.ml.issue_classifier import get_issue_classifier
 from app.ml.price_estimator import get_price_estimator
@@ -24,12 +24,15 @@ async def lifespan(_app: FastAPI):
     Path(settings.ML_ARTIFACTS_DIR).mkdir(parents=True, exist_ok=True)
 
     Base.metadata.create_all(bind=engine)
-    if settings.AUTO_SEED_ON_EMPTY:
-        db = SessionLocal()
-        try:
+    db = SessionLocal()
+    try:
+        _, categories_created = ensure_service_categories(db)
+        if categories_created > 0:
+            db.commit()
+        if settings.AUTO_SEED_ON_EMPTY:
             seed_database(db)
-        finally:
-            db.close()
+    finally:
+        db.close()
 
     get_issue_classifier()
     get_price_estimator()

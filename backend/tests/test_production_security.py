@@ -13,9 +13,22 @@ if str(BACKEND_ROOT) not in sys.path:
     sys.path.insert(0, str(BACKEND_ROOT))
 
 from app.core.config import Settings, get_settings  # noqa: E402
+from app.core.constants import SERVICE_CATEGORIES_CONFIG  # noqa: E402
 from app.db.base import Base  # noqa: E402
-from app.db.models import ElectricianProfile, User  # noqa: E402
-from app.db.seed import seed_database  # noqa: E402
+from app.db.models import (  # noqa: E402
+    Availability,
+    Booking,
+    CustomerProfile,
+    ElectricianProfile,
+    ElectricianSkill,
+    Notification,
+    Payment,
+    Review,
+    ServiceCategory,
+    ServiceRequest,
+    User,
+)
+from app.db.seed import ensure_service_categories, seed_database  # noqa: E402
 from app.db.session import get_db  # noqa: E402
 from app.main import app  # noqa: E402
 from scripts import create_admin as create_admin_script  # noqa: E402
@@ -91,25 +104,123 @@ def test_demo_accounts_works_in_development_without_admin(monkeypatch, isolated_
     assert "admin@bijlibuddy.demo" not in res.text
 
 
-def test_production_seeding_skips_demo_admin(monkeypatch, isolated_db):
+def test_production_seeding_creates_only_categories_and_zero_demo_data(monkeypatch, isolated_db):
     _set_env_mode(monkeypatch, environment="production")
     _, SessionMaker = isolated_db
 
     db = SessionMaker()
     try:
         summary = seed_database(db)
+        expected_cat_names = {cfg["name"] for cfg in SERVICE_CATEGORIES_CONFIG}
+
+        assert summary["categories"] == len(SERVICE_CATEGORIES_CONFIG)
+        assert summary["categories_created"] == len(SERVICE_CATEGORIES_CONFIG)
+        assert summary["customers"] == 0
+        assert summary["electricians"] == 0
+        assert summary["bookings"] == 0
         assert summary["admin_created"] == 0
-        assert summary["customers"] > 0
-        assert summary["electricians"] > 0
-        assert db.query(User).filter(User.role == "admin").count() == 0
-        assert db.query(User).filter(User.email == "admin@bijlibuddy.demo").first() is None
-        verified = (
-            db.query(ElectricianProfile)
-            .filter(ElectricianProfile.verification_status == "verified")
-            .all()
+        assert summary["production_demo_skipped"] == 1
+
+        db_categories = db.query(ServiceCategory).all()
+        assert len(db_categories) == len(SERVICE_CATEGORIES_CONFIG)
+        assert {cat.name for cat in db_categories} == expected_cat_names
+
+        # Zero demo users or user-dependent records in production
+        assert db.query(User).count() == 0
+        assert db.query(CustomerProfile).count() == 0
+        assert db.query(ElectricianProfile).count() == 0
+        assert db.query(ElectricianSkill).count() == 0
+        assert db.query(Availability).count() == 0
+        assert db.query(ServiceRequest).count() == 0
+        assert db.query(Booking).count() == 0
+        assert db.query(Review).count() == 0
+        assert db.query(Payment).count() == 0
+        assert db.query(Notification).count() == 0
+
+        # Idempotent when called repeatedly
+        second_summary = seed_database(db)
+        assert second_summary["categories"] == len(SERVICE_CATEGORIES_CONFIG)
+        assert second_summary["categories_created"] == 0
+        assert db.query(ServiceCategory).count() == len(SERVICE_CATEGORIES_CONFIG)
+        assert db.query(User).count() == 0
+    finally:
+        db.close()
+
+
+def test_production_categories_and_real_admin_startup_without_demo_users(monkeypatch, isolated_db):
+    _set_env_mode(monkeypatch, environment="production")
+    _, SessionMaker = isolated_db
+    client = TestClient(app)
+
+    admin_secret = "RealProductionAdminPass#2026"
+    db = SessionMaker()
+    try:
+        # Real admin provisioned BEFORE seed_database / ensure_service_categories runs
+        admin_user = create_admin_script.create_admin_user(
+            db,
+            email="lead.admin@bijlibuddy.org",
+            full_name="Lead Platform Admin",
+            phone="+919810011223",
+            password=admin_secret,
         )
-        assert len(verified) > 0
-        assert all(item.verified_by_admin_id is None for item in verified)
+        assert admin_user.role == "admin"
+        assert admin_user.is_demo is False
+
+        # Even with an existing User row, required categories must initialize without demo users
+        cats_map, created = ensure_service_categories(db)
+        db.commit()
+        assert len(cats_map) == len(SERVICE_CATEGORIES_CONFIG)
+        assert created == len(SERVICE_CATEGORIES_CONFIG)
+
+        summary = seed_database(db)
+        assert summary["categories"] == len(SERVICE_CATEGORIES_CONFIG)
+        assert summary["customers"] == 0
+        assert summary["electricians"] == 0
+        assert summary["bookings"] == 0
+        assert summary["admin_created"] == 0
+
+        assert db.query(User).count() == 1
+        assert db.query(User).filter(User.is_demo.is_(True)).count() == 0
+        assert db.query(Booking).count() == 0
+    finally:
+        db.close()
+
+    cat_res = client.get("/api/public/categories")
+    assert cat_res.status_code == 200
+    assert len(cat_res.json()["categories"]) == len(SERVICE_CATEGORIES_CONFIG)
+
+    login_res = client.post(
+        "/api/auth/login",
+        json={"email": "lead.admin@bijlibuddy.org", "password": admin_secret},
+    )
+    assert login_res.status_code == 200
+    token = login_res.json()["access_token"]
+    headers = {"Authorization": f"Bearer {token}"}
+
+    for admin_endpoint in (
+        "/api/admin/overview",
+        "/api/admin/demand-analytics",
+        "/api/admin/leaderboard",
+    ):
+        ep_res = client.get(admin_endpoint, headers=headers)
+        assert ep_res.status_code == 200, ep_res.text
+
+
+def test_development_seeding_continues_unchanged(monkeypatch, isolated_db):
+    _set_env_mode(monkeypatch, environment="development")
+    _, SessionMaker = isolated_db
+
+    db = SessionMaker()
+    try:
+        summary = seed_database(db)
+        assert summary["categories"] == len(SERVICE_CATEGORIES_CONFIG)
+        assert summary["admin_created"] == 1
+        assert summary["customers"] == 8
+        assert summary["electricians"] == 22
+        assert summary["bookings"] == 68
+        assert db.query(User).filter(User.is_demo.is_(True)).count() == 31
+        assert db.query(Booking).count() == 68
+        assert db.query(Notification).count() == 3
     finally:
         db.close()
 

@@ -6,7 +6,7 @@ as synthetic demonstration data (is_demo=True).
 
 import random
 from datetime import datetime, timedelta, timezone
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 from sqlalchemy.orm import Session
 
@@ -32,8 +32,6 @@ from app.db.models import (
     ServiceRequest,
     User,
 )
-
-DEMO_PASSWORD_HASH = hash_password("Demo@1234")
 
 DEMO_CUSTOMERS = [
     ("Ananya Sharma", "ananya.sharma@bijlibuddy.demo", "+919811001101", "Saket", "B-42, Press Enclave Road, Saket"),
@@ -93,45 +91,75 @@ REVIEW_COMMENTS = [
 ]
 
 
+def ensure_service_categories(db: Session) -> Tuple[Dict[str, ServiceCategory], int]:
+    """Ensure all configured ServiceCategory rows exist idempotently."""
+    categories_by_name: Dict[str, ServiceCategory] = {
+        cat.name: cat for cat in db.query(ServiceCategory).all()
+    }
+    created = 0
+    for cfg in SERVICE_CATEGORIES_CONFIG:
+        if cfg["name"] not in categories_by_name:
+            cat = ServiceCategory(
+                name=cfg["name"],
+                slug=cfg["slug"],
+                description=cfg["description"],
+                base_price_inr=cfg["base_price_inr"],
+                estimated_duration_mins=cfg["estimated_duration_mins"],
+                safety_level=cfg["safety_level"],
+                icon_name=cfg["icon_name"],
+            )
+            db.add(cat)
+            categories_by_name[cfg["name"]] = cat
+            created += 1
+    if created > 0:
+        db.flush()
+    return categories_by_name, created
+
+
 def seed_database(db: Session) -> Dict[str, int]:
-    """Seed BijliBuddy database idempotently if empty."""
+    """Seed required categories always; seed synthetic demo users/data in non-production only."""
+    # 1. Service Categories (8 required domain categories) — always initialized idempotently
+    categories_by_name, categories_created = ensure_service_categories(db)
+
+    is_production = get_settings().ENVIRONMENT.strip().lower() == "production"
+    if is_production:
+        if categories_created > 0:
+            db.commit()
+        return {
+            "categories": len(categories_by_name),
+            "categories_created": categories_created,
+            "customers": 0,
+            "electricians": 0,
+            "bookings": 0,
+            "admin_created": 0,
+            "production_demo_skipped": 1,
+        }
+
     existing_users = db.query(User).count()
     if existing_users > 0:
-        return {"already_seeded": 1}
+        if categories_created > 0:
+            db.commit()
+        return {
+            "already_seeded": 1,
+            "categories": len(categories_by_name),
+            "categories_created": categories_created,
+        }
 
     rng = random.Random(42)
-
-    # 1. Service Categories (8 categories)
-    categories_by_name: Dict[str, ServiceCategory] = {}
-    for cfg in SERVICE_CATEGORIES_CONFIG:
-        cat = ServiceCategory(
-            name=cfg["name"],
-            slug=cfg["slug"],
-            description=cfg["description"],
-            base_price_inr=cfg["base_price_inr"],
-            estimated_duration_mins=cfg["estimated_duration_mins"],
-            safety_level=cfg["safety_level"],
-            icon_name=cfg["icon_name"],
-        )
-        db.add(cat)
-        categories_by_name[cfg["name"]] = cat
-    db.flush()
+    demo_password_hash = hash_password("Demo@1234")
 
     # 2. Admin account (development/non-production only; production admins are provisioned explicitly)
-    is_production = get_settings().ENVIRONMENT.strip().lower() == "production"
-    admin_user = None
-    if not is_production:
-        admin_user = User(
-            email="admin@bijlibuddy.demo",
-            phone="+919810000001",
-            full_name="BijliBuddy Operations Admin",
-            password_hash=DEMO_PASSWORD_HASH,
-            role="admin",
-            is_active=True,
-            is_demo=True,
-        )
-        db.add(admin_user)
-        db.flush()
+    admin_user = User(
+        email="admin@bijlibuddy.demo",
+        phone="+919810000001",
+        full_name="BijliBuddy Operations Admin",
+        password_hash=demo_password_hash,
+        role="admin",
+        is_active=True,
+        is_demo=True,
+    )
+    db.add(admin_user)
+    db.flush()
 
     # 3. Customers (8 demo households)
     customer_users: List[User] = []
@@ -141,7 +169,7 @@ def seed_database(db: Session) -> Dict[str, int]:
             email=email,
             phone=phone,
             full_name=name,
-            password_hash=DEMO_PASSWORD_HASH,
+            password_hash=demo_password_hash,
             role="customer",
             is_active=True,
             is_demo=True,
@@ -172,7 +200,7 @@ def seed_database(db: Session) -> Dict[str, int]:
             email=email,
             phone=phone,
             full_name=name,
-            password_hash=DEMO_PASSWORD_HASH,
+            password_hash=demo_password_hash,
             role="electrician",
             is_active=True,
             is_demo=True,
@@ -398,8 +426,9 @@ def seed_database(db: Session) -> Dict[str, int]:
     db.commit()
     return {
         "categories": len(categories_by_name),
+        "categories_created": categories_created,
         "customers": len(customer_users),
         "electricians": len(electrician_profiles),
         "bookings": booking_count,
-        "admin_created": 1 if admin_user is not None else 0,
+        "admin_created": 1,
     }
